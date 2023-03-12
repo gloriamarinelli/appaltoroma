@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: GothamBold;
+  src: url("./resources/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GothamBook;
+  src: url("./resources/Gotham-Book.otf") format("opentype");
+}
+
+.header-about{
+  background-image: url("./components/images/about.png");
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
