@@ -21,7 +21,7 @@ export default function About() {
         <h1
           className="font-weight-bold mt-5 mb-5"
           style={{
-            fontSize: "100px",
+            fontSize: "80px",
             fontWeight: "bold",
             fontFamily: "GothamBold",
             color: "#23262d",
