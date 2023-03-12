@@ -31,12 +31,12 @@ export default function Navbar() {
             >
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/about">
-                  About Us
+                  Chi siamo
                 </Link>
               </li>
               <li className="nav-item ">
                 <Link className="nav-link text-white " to="/projects">
-                  Projects
+                  Progetti
                 </Link>
               </li>
               <li className="nav-item">
