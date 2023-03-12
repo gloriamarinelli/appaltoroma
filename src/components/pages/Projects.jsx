@@ -19,7 +19,6 @@ import Image14 from "../images/CONDOMINIO-di-Via-Cherso.webp";
 import Image15 from "../images/palazzo-grande-corciano.webp";
 import Image16 from "../images/oscano-ingresso.webp";
 
-
 export default function Bonus() {
   return (
     <>

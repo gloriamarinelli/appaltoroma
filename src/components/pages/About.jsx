@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Image from "../images/logo1.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../index.css";
@@ -29,7 +29,8 @@ export default function About() {
         >
           CHI SIAMO
         </h1>
-      </div>{" "}
+      </div>
+
       <section>
         <div className="container px-5">
           <div className="row gx-5 align-items-center">
