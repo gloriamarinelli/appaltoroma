@@ -14,10 +14,10 @@ body {
   src: url("./resources/Gotham-Book.otf") format("opentype");
 }
 
-.header-about{
+/*ABOUT*/
+.header-about {
   background-image: url("./components/images/about.png");
   background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }

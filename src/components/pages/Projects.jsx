@@ -1,13 +1,30 @@
-import React, { Component } from "react";
+import React from "react";
 import Image from "../images/projects.png";
-import "../../index.css";
-import global from "../../resources/global.json";
+import ProjectsCard from "../components/ProjectsCard";
+
+import Image1 from "../images/condominio-via-barilatti.webp";
+import Image2 from "../images/viatolosa.webp";
+import Image3 from "../images/Alessandro-Codivilla-1.webp";
+import Image4 from "../images/Via-Passo-Lombardo-7.webp";
+import Image5 from "../images/pinsaccoccia.webp";
+import Image6 from "../images/nopolo-tiburtino.webp";
+import Image7 from "../images/castelverde.webp";
+import Image8 from "../images/casale-castellaccio.webp";
+import Image9 from "../images/Osteria-del-curato.webp";
+import Image10 from "../images/ostia-murature.webp";
+import Image11 from "../images/oscano-dallalto.webp";
+import Image12 from "../images/massaia-.webp";
+import Image13 from "../images/foa-balconi.webp";
+import Image14 from "../images/CONDOMINIO-di-Via-Cherso.webp";
+import Image15 from "../images/palazzo-grande-corciano.webp";
+import Image16 from "../images/oscano-ingresso.webp";
+
 
 export default function Bonus() {
   return (
     <>
       <div
-        className="header-bonus"
+        className="header-projects"
         style={{
           backgroundImage: `url(${Image})`,
           bacjgroundSize: "cover",
@@ -25,229 +42,79 @@ export default function Bonus() {
             fontSize: "80px",
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"white"
+            color: "white",
           }}
         >
           PROGETTI
         </h1>
       </div>
-      <div style={{ textAlign: "justify", padding: "100px" }}>
-        <h5
-          style={{
-            fontFamily: "GothamBook",
-          }}
-        >
-          <p>
-            Credito di Imposta del <strong>110%</strong>, Decreto Rilancio{" "}
-            <strong>2020</strong>
-          </p>
 
-          <p>
-            Disponibilità dell'Impresa <strong>APPALTO ROMA s.r.l.</strong> di
-            concedere lo sconto su fattura pari all’intero importo dei lavori
-            eseguiti dall’Impresa, riservando al Condominio la possibilità di
-            ottenere il miglioramento energetico richiesto dalla normativa a{" "}
-            <strong>COSTO ZERO</strong>.
-          </p>
-        </h5>
-        <h5 style={{ color: "#34aadc" }}>
-          Tale intervento sarà realizzato con le modalità che seguono:
-        </h5>
-
-        <h5
-          style={{
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-          }}
-        >
-          “A” – Fase PROPEDEUTICA
-        </h5>
-        <ul style={{ fontSize: "20px" }}>
-          <li>
-            Delibera dell’Assemblea Condominiale con accettazione
-            dell’intervento da parte di almeno il 30% dei millesimi condominiali
-          </li>
-          <li>
-            Accettazione della cessione del Credito d’Imposta da parte di tutti
-            i Condomini
-          </li>
-        </ul>
-
-        <h5
-          style={{
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-          }}
-        >
-          “B” – Fase 1: Fattibilità
-        </h5>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Il processo inizia con l’elaborazione di una preliminare valutazione
-          di fattibilità tecnico- economica (su preliminare sopralluogo dei
-          nostri tecnici) che la redige, a titolo gratuito, al fine di mettere a
-          conoscenza del Condominio il limite di capienza economica degli
-          interventi ipotizzabili (importo massimo consentito dalla legge).
-        </p>
-
-        <h5
-          style={{
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-          }}
-        >
-          “C” – Fase 2: Progetto di fattibilità e diagnosi{" "}
-        </h5>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Successivamente, e sempre a titolo gratuito, la Appalto Roma s.r.l.
-          redigerà il Progetto Di Fattibilità e la diagnosi dell’edificio con
-          Valutazione Tecnica Economica Parametrica.{" "}
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Un vero e proprio Progetto esecutivo nel quale verranno illustrate le
-          lavorazioni e il Quadro Tecnico Economico (QTE), comprensivo di tutti
-          i costi amministrativi, fiscali, legali, tecnici, progettuali e del
-          costo degli interventi edilizi.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Il QTE comprende anche le operazioni di collaudo, la direzione lavori,
-          il corrispettivo del responsabile dei lavori, le analisi, i rilievi,
-          tutti gli adempimenti fiscali e telematiciprevisti dalla normativa e
-          l’assistenza fiscale e legale dall’avvio dell’iter sino alla sua
-          positiva definizione.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Tutto ciò senza alcun costo a carico dei committenti ai quali spetterà
-          solo l’onere di fornire quanto pià materiale possibile ai tecnici per
-          facilitare l’attività di diagnostica dell’edificio e la verifica
-          urbanistica delle unità immobiliari.
-        </p>
-
-        <h5
-          style={{
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-          }}
-        >
-          “D” – Fase 3: Acquisizione permessi e Cantiere
-        </h5>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Al completamento con esito positivo dei due livelli di fattibilita’,
-          si procederà all’elaborazione di quanto necessario per l’acquisizione
-          dei permessi urbanistici, l’eventuale occupazione di suolo pubblico e
-          quanto necessario per l’ottenimento delle autorizzazioni Comunali,
-          Provinciali, Regionali e delle Soprintendenze (nel caso di area
-          vincolata) e dell’eventuale pratica per l’occupazione di suolo
-          pubblico.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Come prevista dall’attutale legislazione e nei casi in cui ciò sia
-          ritenuto possibile dal Progetti di Fattibilità, la Impresa Appalto
-          Roma s.r.l. applicherà al condominio uno sconto pari al 100% dei costi
-          previsti dal Quadro Tecnico Economico, cioè il 100% dell’intera
-          operazione finanziaria.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Da tale sconto la Società acquisirà un credito d’imposta pari al 110%
-          che sarà ceduto a istituti bancari di fiducia della Società
-          Appaltoroma S.r.l.
-        </p>
-
-        <h5
-          style={{
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-          }}
-        >
-          4 – Garanzie
-        </h5>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          Per tutte le attività necessarie al corretto e completo sviluppo dei
-          procedimenti e dei lavori, i Committenti potranno essere da garantiti
-          da una una polizza assicurativa stipulata dai professionisti
-          responsabili del processo e titolari delle asseverazioni, ognuno per
-          propria competenza specifica, che solleverà il condominio ed ogni
-          singolo condòmino da ogni rischio correlato all’accesso agli incentivi
-          fiscali.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          La polizza è idonea a garantire i proprietari anche in caso di spese
-          aggiuntive che a qualsiasi titolo dovessero essere richieste dagli
-          organi di controllo quali Agenzia delle Entrate o ENEA, etc.. Ivi
-          compresa ogni eventuale pretesa risarcitoria.
-        </p>
-        <p
-          style={{
-            fontSize: "20px",
-            fontFamily: "GothamBook",
-            color: "#34aadc",
-          }}
-        >
-          L’aspetto legato alle lavorazioni edili e alle eventuali problematiche
-          di cantiere, saranno poi garantite dall’assicurazione specifica
-          dell’impresa appaltatrice e quelle delle sub- appaltatrici che
-          potrebbero subentrare in cantiere.
-        </p>
-      </div>
+      <section class="articles">
+        <ProjectsCard
+          titolo="CONDOMINIO Via Barillatti – ROMA"
+          immagine={Image1}
+        />
+        <ProjectsCard
+          titolo="CONDOMINIO Via Tolosa – ROMA EUR"
+          immagine={Image2}
+        />
+        <ProjectsCard
+          titolo="CONDOMINIO Via Alessandro Codivilla – ROMA"
+          immagine={Image3}
+        />
+        <ProjectsCard
+          titolo="EDIFICIO MONOFAMILIARE Via Passo Lombardo N° 126 – ROMA"
+          immagine={Image4}
+        />
+        <ProjectsCard
+          titolo="PIANSACCOCCIA 2 Via Enrico Tallone - ROMA"
+          immagine={Image5}
+        />
+        <ProjectsCard
+          titolo="POLO TECNOLOGICO TIBURTINO Via Tiburtina - ROMA"
+          immagine={Image6}
+        />
+        <ProjectsCard
+          titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
+          immagine={Image7}
+        />
+        <ProjectsCard
+          titolo="CASALE CASTELLACCIO- ROMA"
+          immagine={Image8}
+        />
+        <ProjectsCard
+          titolo="OSTERIA DEL CURATO"
+          immagine={Image9}
+        />
+        <ProjectsCard
+          titolo="OSTIA"
+          immagine={Image10}
+        />
+        <ProjectsCard
+          titolo="CASTELLO DELL’OSCANO"
+          immagine={Image11}
+        />
+        <ProjectsCard
+          titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
+          immagine={Image12}
+        />
+        <ProjectsCard
+          titolo="CONDOMINIO FOA’ 45 Via Pio Foa’ 45 - ROMA"
+          immagine={Image13}
+        />
+        <ProjectsCard
+          titolo="CONDOMINIO Via Cherso N° 59 – ROMA"
+          immagine={Image14}
+        />
+        <ProjectsCard
+          titolo="PALAZZO GRANDE Corciano (PG)"
+          immagine={Image15}
+        />
+        <ProjectsCard
+          titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare Del 1600 E Successive Integrazioni Del 1800 D.C."
+          immagine={Image16}
+        />
+      </section>
     </>
   );
 }
