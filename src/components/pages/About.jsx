@@ -13,7 +13,7 @@ export default function About() {
           textAlign: "center",
           color: "#fff",
           marginBottom: "10px",
-          height: "80vh",
+          height: "60vh",
           display: "grid",
           placeItems: "center",
         }}
@@ -27,7 +27,7 @@ export default function About() {
             color: "#23262d",
           }}
         >
-          ABOUT US
+          CHI SIAMO
         </h1>
       </div>{" "}
       <section>

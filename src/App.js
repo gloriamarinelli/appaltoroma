@@ -5,8 +5,9 @@ import Footer from "./components/components/Footer";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Bonus from "./components/pages/Bonus";
+import Projects from "./components/pages/Projects";
 import ErrorPage from "./components/pages/ErrorPage";
-import React, { Component }  from 'react';
+import React from 'react';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/bonus",
         element: <Bonus />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
     ],
   },

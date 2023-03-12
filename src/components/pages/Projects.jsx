@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Image from "../images/bonus.png";
+import Image from "../images/projects.png";
 import "../../index.css";
+import global from "../../resources/global.json";
 
 export default function Bonus() {
   return (
@@ -24,10 +25,10 @@ export default function Bonus() {
             fontSize: "80px",
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color: "white",
+            color:"white"
           }}
         >
-          ECOBONUS E SISMABONUS
+          PROGETTI
         </h1>
       </div>
       <div style={{ textAlign: "justify", padding: "100px" }}>

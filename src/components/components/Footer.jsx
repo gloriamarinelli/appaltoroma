@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../index.css";
-import Image1 from "../images/footer5.png";
+import Image1 from "../images/footer.png";
 
 export default function Footer() {
   return (
