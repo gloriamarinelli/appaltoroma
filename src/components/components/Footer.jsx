@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "../../index.css";
 import Image1 from "../images/footer5.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Footer() {
   return (
