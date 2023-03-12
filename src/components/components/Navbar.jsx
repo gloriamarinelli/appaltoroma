@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "../../index.css";
 import { Link } from "react-router-dom";
-import Image from "../images/logo.jpg";
+import Image from "../images/logo.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Navbar() {
   return (
