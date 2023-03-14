@@ -13,7 +13,7 @@ import Image9 from "../images/nopolo-tiburtino.webp";
 import Image10 from "../images/casale-castellaccio.webp";
 import Image11 from "../images/comelavoriamo.png";
 import Image12 from "../images/impianti2.png";
-
+import Image13 from "../images/architecture.webp";
 import "../../index.css";
 
 export default function Home() {
@@ -517,9 +517,9 @@ export default function Home() {
           }}
         >
           <div>
-          <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
-                  COSA FACCIAMO
-                </h3>
+            <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
+              COSA FACCIAMO
+            </h3>
             <h1
               style={{
                 color: "white",
@@ -533,8 +533,8 @@ export default function Home() {
           </div>
           <form
             style={{
-             backgroundColor: "rgba(255, 255, 255, 0.7)",
-             color:"black"
+              backgroundColor: "rgba(255, 255, 255, 0.7)",
+              color: "black",
             }}
           >
             <div class="container" style={{ textAlign: "justify" }}>
@@ -600,6 +600,23 @@ export default function Home() {
             </div>
           </form>
         </div>
+      </section>
+
+      <section>
+        <div
+          className="header-home"
+          style={{
+            backgroundImage: `url(${Image13})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            textAlign: "center",
+            color: "#fff",
+            height: "100vh",
+            display: "grid",
+            placeItems: "center",
+          }}
+        ></div>
       </section>
     </>
   );

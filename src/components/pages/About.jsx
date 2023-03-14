@@ -36,7 +36,7 @@ export default function About() {
           <div className="row gx-5 align-items-center">
             <div className="col-lg-6">
               <div className="p-5 d-flex justify-content-center align-items-center">
-                <LazyLoadImage src={Image} alt="TedxSapienzaU" height="300" />
+                <LazyLoadImage src={Image} alt="Chi siamo Appalto Roma" height="300" />
               </div>
               </div>
               <div className="col-lg-6">
