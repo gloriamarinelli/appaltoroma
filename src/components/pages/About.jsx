@@ -24,7 +24,7 @@ export default function About() {
             fontSize: "80px",
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color: "#23262d",
+            color: "white",
           }}
         >
           CHI SIAMO
@@ -36,45 +36,65 @@ export default function About() {
           <div className="row gx-5 align-items-center">
             <div className="col-lg-6">
               <div className="p-5 d-flex justify-content-center align-items-center">
-                <LazyLoadImage src={Image} alt="Chi siamo Appalto Roma" height="300" />
+                <LazyLoadImage
+                  src={Image}
+                  alt="Chi siamo Appalto Roma"
+                  height="300"
+                />
               </div>
-              </div>
-              <div className="col-lg-6">
-							<div className="p-5">
-                <h1 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>PRESENTAZIONE DELL'IMPRESA</h1>
+            </div>
+            <div className="col-lg-6">
+              <div className="p-5">
+                <h1 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
+                  PRESENTAZIONE DELL'IMPRESA
+                </h1>
                 <p
-                  className="lead mt-3"
+                  className="mt-3"
                   style={{
                     textAlign: "justify",
                     fontFamily: "GothamBook",
                     fontSize: "18px",
                   }}
                 >
-                  La Società Appalto Roma fa parte di un gruppo aziendale che si
-                  occupa di interventi di manutenzione, ristrutturazione e
-                  restauro di edifici civili e sociali ed ha acquisito nel tempo
-                  una esperienza specifica sia in ordine alla costruzione che
-                  alla ristrutturazione di immobili, delle loro facciate e del
-                  loro efficientamento energetico unitamente al loro adeguamento
-                  impiantistico come pure a seguito di numerosi interventi, al
-                  loro miglioramento sismico. Lo svolgimento della sua attività
-                  gode dell’esperienza maturata nel corso di vari decenni da
-                  parte dei suoi tecnici, sia nella ristrutturazione e restauro
-                  di edifici d’epoca quali il Castello dell’Oscano o Palazzo
-                  Grande di Corciano che nella ristrutturazione di edifici fine
-                  1800 come l’Hotel Quirinale o l’Hotel Villa Linneo ambedue di
-                  Roma, che ancora con i numerosi interventi di ristrutturazione
-                  e miglioramento sismico eseguiti a seguito del terremoto del
-                  1.997 in Umbria e Marche, nel terremoto del 2.000 della Valle
-                  dell’Aniene e da ultimo nel terremoto del 2009 che ha colpito
-                  l’Abruzzo ed in particolare la provincia de L’Aquila.
-                  Attualmente opera nel settore delle manutenzioni condominiali
-                  unitamente a quello delle nuove costruzioni.
+                  La Società <strong>Appalto Roma</strong> fa parte di un gruppo
+                  aziendale che si occupa di interventi di manutenzione,
+                  ristrutturazione e restauro di edifici civili e sociali ed ha
+                  acquisito nel tempo un'esperienza specifica sia nella
+                  costruzione che nella ristrutturazione di immobili, delle
+                  facciate e tenendo sempre in considerazione l'efficientamento
+                  energetico, l'adeguamento impiantistico e il miglioramento
+                  sismico degli edifici. 
+                  </p>
+                  <p  style={{
+                    textAlign: "justify",
+                    fontFamily: "GothamBook",
+                    fontSize: "18px",
+                  }}>Lo svolgimento della sua attività si basa
+                  sull'esperienza maturata nel corso degli anni da parte dei
+                  suoi tecnici, sia nella ristrutturazione che nel restauro di
+                  edifici d’epoca quali il Castello dell’Oscano o il Palazzo
+                  Grande di Corciano. Inoltre l'azienda{" "}
+                  <strong>Appalto Roma</strong> si è occupata della
+                  ristrutturazione di edifici di fine '800 come l’Hotel
+                  Quirinale e l’Hotel Villa Linneo di Roma.{" "}</p>
+                  <p  style={{
+                    textAlign: "justify",
+                    fontFamily: "GothamBook",
+                    fontSize: "18px",
+                  }}>
+                  <strong>Appalto Roma</strong> ha assunto un ruolo importante
+                  nei numerosi interventi di ristrutturazione e miglioramento
+                  sismico eseguiti a seguito del terremoto del 1997 in Umbria e
+                  Marche, nel terremoto del 2000 della Valle dell’Aniene e
+                  nell'ultimo terremoto del 2009 che ha colpito L'Aquila e la
+                  sua provincia. Attualmente opera nel settore delle
+                  manutenzioni condominiali insieme a quello delle nuove
+                  costruzioni.
                 </p>
               </div>
-              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
     </>
   );

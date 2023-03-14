@@ -49,7 +49,7 @@ export default function Bonus() {
             <strong>COSTO ZERO</strong>.
           </p>
         </h5>
-        <h5 style={{ color: "#34aadc" }}>
+        <h5 style={{ color: "#23262d" }}>
           Tale intervento sarà realizzato con le modalità che seguono:
         </h5>
 
@@ -57,6 +57,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
+            color:"#34aadc"
           }}
         >
           “A” – Fase PROPEDEUTICA
@@ -76,6 +77,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
+            color:"#34aadc"
           }}
         >
           “B” – Fase 1: Fattibilità
@@ -84,7 +86,7 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
+            
           }}
         >
           Il processo inizia con l’elaborazione di una preliminare valutazione
@@ -98,6 +100,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
+            color:"#34aadc"
           }}
         >
           “C” – Fase 2: Progetto di fattibilità e diagnosi{" "}
@@ -106,7 +109,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Successivamente, e sempre a titolo gratuito, la Appalto Roma s.r.l.
@@ -117,7 +119,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Un vero e proprio Progetto esecutivo nel quale verranno illustrate le
@@ -129,7 +130,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Il QTE comprende anche le operazioni di collaudo, la direzione lavori,
@@ -142,7 +142,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Tutto ciò senza alcun costo a carico dei committenti ai quali spetterà
@@ -155,6 +154,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
+            color:"#34aadc"
           }}
         >
           “D” – Fase 3: Acquisizione permessi e Cantiere
@@ -163,7 +163,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Al completamento con esito positivo dei due livelli di fattibilita’,
@@ -178,7 +177,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Come prevista dall’attutale legislazione e nei casi in cui ciò sia
@@ -191,7 +189,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Da tale sconto la Società acquisirà un credito d’imposta pari al 110%
@@ -203,6 +200,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
+            color:"#34aadc"
           }}
         >
           4 – Garanzie
@@ -211,7 +209,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           Per tutte le attività necessarie al corretto e completo sviluppo dei
@@ -226,7 +223,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           La polizza è idonea a garantire i proprietari anche in caso di spese
@@ -238,7 +234,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            color: "#34aadc",
           }}
         >
           L’aspetto legato alle lavorazioni edili e alle eventuali problematiche

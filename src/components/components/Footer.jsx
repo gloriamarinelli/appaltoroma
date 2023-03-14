@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../../index.css";
 import Image1 from "../images/footer.png";
+import Image from "../images/logo.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Footer() {
   return (
@@ -57,6 +59,12 @@ export default function Footer() {
                   Email: info@appaltoroma.it
                 </h5>
               </div>
+              <div className="mt-5">
+              <LazyLoadImage
+                  src={Image}
+                  alt="Chi siamo Appalto Roma"
+                  height="100"
+                /></div>
             </div>
           </div>
           <hr className="text-white"></hr>

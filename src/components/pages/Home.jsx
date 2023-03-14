@@ -1,3 +1,5 @@
+/* eslint-disable react/style-prop-object */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import Image from "../images/sudinoi.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -13,7 +15,10 @@ import Image9 from "../images/nopolo-tiburtino.webp";
 import Image10 from "../images/casale-castellaccio.webp";
 import Image11 from "../images/comelavoriamo.png";
 import Image12 from "../images/impianti2.png";
-import Image13 from "../images/architecture.webp";
+import Image13 from "../images/logo.svg";
+import Image14 from "../images/qrcode.svg";
+import Image15 from "../images/PROVA.jpg";
+
 import "../../index.css";
 
 export default function Home() {
@@ -602,21 +607,41 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <div
-          className="header-home"
-          style={{
-            backgroundImage: `url(${Image13})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            textAlign: "center",
-            color: "#fff",
-            height: "100vh",
-            display: "grid",
-            placeItems: "center",
-          }}
-        ></div>
+      <section style={{ backgroundImage: `url(${Image11})` }}>
+      
+        <div class="container mt-5" style={{ textAlign: "center" }}>
+          <div class="row">
+            <div class="col">
+              <LazyLoadImage src={Image13} alt="appaltoroma" height="150" />
+            </div>
+            <div class="col">
+              <LazyLoadImage
+                src={Image14}
+                alt="qrcode appaltoroma"
+                height="150"
+              />
+            </div>
+            <div className="mt-5">
+              {" "}
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "#23262d",
+                  fontFamily: "GothamBook",
+                }}
+                href="/projects"
+              >
+                <h1>
+                  UFFICO ROMA:{" "}
+                  <strong>Via Sante Monachesi, n°4, 00173 Roma RM</strong>{" "}
+                </h1>
+              </a>
+            </div>
+            <div class="col mt-5">
+              <LazyLoadImage src={Image15} alt="qrcode appaltoroma" />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
