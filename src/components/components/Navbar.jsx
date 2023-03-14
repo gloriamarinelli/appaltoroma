@@ -7,7 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light static-top" >
         <div className="container">
           <Link to="/">
             <LazyLoadImage src={Image} alt="LogoTedx" width="" height="40" />
@@ -27,20 +27,21 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
               className="navbar-nav ms-auto"
-              style={{ fontFamily: "GothamBook" }}
+              style={{ fontFamily: "GothamBook",
+              }}
             >
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/about">
+                <Link className="nav-link text-dark" to="/about">
                   Chi siamo
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link text-white " to="/projects">
+                <Link className="nav-link text-dark " to="/projects">
                   Progetti
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/bonus">
+                <Link className="nav-link text-dark" to="/bonus">
                   Ecobonus e Sismabonus
                 </Link>
               </li>

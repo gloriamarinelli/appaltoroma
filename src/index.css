@@ -23,26 +23,26 @@ body {
 }
 
 /*HOME*/
-.btn4{
-  display:inline-block;
-  padding:0.6em 1em;
-  border:none;
-  margin:0.2em 0.1em;
+.btn4 {
+  display: inline-block;
+  padding: 0.6em 1em;
+  border: none;
+  margin: 0.2em 0.1em;
   box-sizing: border-box;
-  text-decoration:none;
-  font-family:"GothamBold";
-  font-weight:300;
-  color:#FDFDFD;
-  border-radius:3em;
-  text-align:center;
+  text-decoration: none;
+  font-family: "GothamBold";
+  font-weight: 300;
+  color: #fdfdfd;
+  border-radius: 3em;
+  text-align: center;
   transition: 0.1s;
-  background-color:#23262d;
-  cursor:pointer;
-  font-weight:bold;
+  background-color: #23262d;
+  cursor: pointer;
+  font-weight: bold;
   letter-spacing: 0.05em;
 }
-.btn4:hover{
-  background-color:#34aadc !important;
+.btn4:hover {
+  background-color: #34aadc !important;
 }
 
 /*CARDS HOME*/
@@ -52,7 +52,7 @@ div.cards {
 }
 
 div.cards {
-  margin: 80px auto; 
+  margin: 80px auto;
   text-align: center;
 }
 div.card {
