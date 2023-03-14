@@ -37,7 +37,6 @@ export default function Footer() {
                     fontSize: "40px",
                     allign: "center",
                     fontFamily: "GothamBold",
-                   
                   }}
                 >
                   {" "}
@@ -59,18 +58,19 @@ export default function Footer() {
                   Email: info@appaltoroma.it
                 </h5>
               </div>
-              <div className="mt-5">
-              <LazyLoadImage
+              
+                <LazyLoadImage
                   src={Image}
                   alt="Chi siamo Appalto Roma"
                   height="100"
-                /></div>
+                />
+             
             </div>
           </div>
           <hr className="text-white"></hr>
           <div className="copyright py-4 text-center text-white">
             <div className="container">
-              <small style={{ fontFamily: "GothamBook"}}>
+              <small style={{ fontFamily: "GothamBook" }}>
                 &copy; Copyright 2023 | appaltoroma.it | All Rights Reserved
               </small>
             </div>
