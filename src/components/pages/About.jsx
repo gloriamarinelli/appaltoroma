@@ -63,25 +63,30 @@ export default function About() {
                   costruzione che nella ristrutturazione di immobili, delle
                   facciate e tenendo sempre in considerazione l'efficientamento
                   energetico, l'adeguamento impiantistico e il miglioramento
-                  sismico degli edifici. 
-                  </p>
-                  <p  style={{
+                  sismico degli edifici.
+                </p>
+                <p
+                  style={{
                     textAlign: "justify",
                     fontFamily: "GothamBook",
                     fontSize: "18px",
-                  }}>Lo svolgimento della sua attività si basa
-                  sull'esperienza maturata nel corso degli anni da parte dei
-                  suoi tecnici, sia nella ristrutturazione che nel restauro di
-                  edifici d’epoca quali il Castello dell’Oscano o il Palazzo
-                  Grande di Corciano. Inoltre l'azienda{" "}
-                  <strong>Appalto Roma</strong> si è occupata della
-                  ristrutturazione di edifici di fine '800 come l’Hotel
-                  Quirinale e l’Hotel Villa Linneo di Roma.{" "}</p>
-                  <p  style={{
+                  }}
+                >
+                  Lo svolgimento della sua attività si basa sull'esperienza
+                  maturata nel corso degli anni da parte dei suoi tecnici, sia
+                  nella ristrutturazione che nel restauro di edifici d’epoca
+                  quali il Castello dell’Oscano o il Palazzo Grande di Corciano.
+                  Inoltre l'azienda <strong>Appalto Roma</strong> si è occupata
+                  della ristrutturazione di edifici di fine '800 come l’Hotel
+                  Quirinale e l’Hotel Villa Linneo di Roma.{" "}
+                </p>
+                <p
+                  style={{
                     textAlign: "justify",
                     fontFamily: "GothamBook",
                     fontSize: "18px",
-                  }}>
+                  }}
+                >
                   <strong>Appalto Roma</strong> ha assunto un ruolo importante
                   nei numerosi interventi di ristrutturazione e miglioramento
                   sismico eseguiti a seguito del terremoto del 1997 in Umbria e

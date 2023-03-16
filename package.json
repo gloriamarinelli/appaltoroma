@@ -6,10 +6,14 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react-addons-css-transition-group": "^15.0.7",
+    "@types/react-transition-group": "^4.4.5",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
     "google-map-react": "^2.2.0",
     "iframe": "^1.0.0",
     "react": "^18.2.0",
+    "react-classlist": "^1.1.2",
     "react-dom": "^18.2.0",
     "react-iframe": "^1.8.5",
     "react-lazy-load-image-component": "^1.5.6",
@@ -40,5 +44,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
   }
 }

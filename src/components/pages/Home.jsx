@@ -17,36 +17,31 @@ import Image12 from "../images/impianti2.png";
 import Image13 from "../images/logo.svg";
 import Image14 from "../images/qrcode.svg";
 import Image15 from "../images/PROVA.jpg";
-
 import "../../index.css";
 
 export default function Home() {
   return (
     <>
-      <div
-        className="header-home"
-        style={{
-          padding: "10px",
-          textAlign: "center",
-          color: "#fff",
-          marginBottom: "10px",
-          height: "60vh",
-          display: "grid",
-          placeItems: "center",
-        }}
-      >
-        <h1
-          className="font-weight-bold mt-5 mb-5"
+      <section>
+        <div
+          className="header-home-page"
           style={{
-            fontSize: "100px",
-            fontWeight: "bold",
-            fontFamily: "GothamBold",
-            color: "#23262d",
+            padding: "10px",
+            textAlign: "center",
+            backgroundColor: "black",
+            marginBottom: "10px",
+            height: "60vh",
+            display: "grid",
+            placeItems: "center",
           }}
         >
-          HOME
-        </h1>
-      </div>
+          
+          <h1 className="animated infinite rollOut">
+            QUALITÀ VELOCITÀ SICUREZZA
+          </h1>
+          <h1>SE L'OPPORTUNITÀ NON BUSSA COSTRUISCITI UNA PORTA.</h1>
+        </div>
+      </section>
 
       <section>
         <div className="container px-5">
@@ -631,7 +626,7 @@ export default function Home() {
               >
                 <h1>
                   UFFICO ROMA:{" "}
-                  <strong>Via Sante Monachesi, n°4, 00173 Roma RM</strong>{" "}
+                  <strong>Via Sante Monachesi, n°4, 00173 Roma (RM)</strong>{" "}
                 </h1>
               </a>
             </div>
@@ -642,8 +637,7 @@ export default function Home() {
                 height="400px"
                 id=""
                 className=""
-                
-                placeItems= "center"
+                placeItems="center"
               />
             </div>
           </div>
