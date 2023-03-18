@@ -121,7 +121,7 @@ export default function Footer() {
                     }}
                   >
                     {" "}
-                    📞0669278528
+                    📞06 8947 3105
                   </h3>
                   <p
                     style={{
