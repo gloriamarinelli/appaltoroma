@@ -16,7 +16,8 @@ import Image11 from "../images/comelavoriamo.png";
 import Image12 from "../images/impianti2.png";
 import Image13 from "../images/logo.svg";
 import Image14 from "../images/qrcode.svg";
-import Image15 from "../images/PROVA.jpg";
+import Image15 from "../images/home.gif";
+
 import "../../index.css";
 
 export default function Home() {
@@ -26,20 +27,15 @@ export default function Home() {
         <div
           className="header-home-page"
           style={{
-            padding: "10px",
             textAlign: "center",
-            backgroundColor: "black",
-            marginBottom: "10px",
-            height: "60vh",
+            backgroundColor: "#23262d",
+            height:"500px",
             display: "grid",
             placeItems: "center",
           }}
         >
-          
-          <h1 className="animated infinite rollOut">
-            QUALITÀ VELOCITÀ SICUREZZA
-          </h1>
-          <h1>SE L'OPPORTUNITÀ NON BUSSA COSTRUISCITI UNA PORTA.</h1>
+          <img src={Image15} alt="SUDINOI" />
+         
         </div>
       </section>
 
