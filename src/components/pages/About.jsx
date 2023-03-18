@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/logo1.png";
+import Image from "../images/logo1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../index.css";
 

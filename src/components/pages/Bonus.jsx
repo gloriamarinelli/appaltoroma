@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/bonus.png";
+import Image from "../images/bonus.webp";
 import "../../index.css";
 
 export default function Bonus() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/projects.png";
+import Image from "../images/projects.webp";
 import ProjectsCard from "../components/ProjectsCard";
 
 import Image1 from "../images/condominio-via-barilatti.webp";
