@@ -2,5 +2,11 @@
 	"COLORS": {
 		"CELESTE": "#34aadc",		
 		"GRIGIO":"#23262d"
-    }                
+    },
+	"UTILS": {
+		"SOCIAL_NAV_HEIGHT": "40px",
+		"NAV_HEIGHT": "76px",
+		"MOBILE_WIDTH": "480",
+		"TABLET_WIDTH": "768"
+	}              
 }
