@@ -1128,7 +1128,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className="mt-5">
           <div
             className="header-home-impianti"
             style={{
@@ -1142,7 +1142,7 @@ export default function Home() {
               placeItems: "center",
             }}
           >
-            <div>
+            <div >
               <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                 COSA FACCIAMO
               </h3>
