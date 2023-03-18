@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../images/logo1.webp";
+import Image1 from "../images/chisiamo.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../index.css";
 
@@ -9,6 +10,10 @@ export default function About() {
       <div
         className="header-about"
         style={{
+          backgroundImage: `url(${Image1})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repea",
+          backgroundSize: "cover",
           padding: "10px",
           textAlign: "center",
           color: "#fff",

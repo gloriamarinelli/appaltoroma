@@ -1,22 +1,23 @@
 import Iframe from "react-iframe";
 import React from "react";
-import Image from "../images/sudinoi.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Image15 from "../images/home.gif";
+
+import Image from "../images/sudinoi.webp";
 import Image1 from "../images/sottofondazioni.webp";
-import Image2 from "../images/consolidamentodimurature.webp";
+import Image2 from "../images/consolidamento.webp";
 import Image3 from "../images/iniezioniconsolidanti.webp";
 import Image4 from "../images/intonaciarmati.webp";
 import Image5 from "../images/product.webp";
 import Image6 from "../images/product1.webp";
 import Image7 from "../images/sceltamigliore.webp";
-import Image8 from "../images/migliorequalità.webp";
+import Image8 from "../images/migliorequalita.webp";
 import Image9 from "../images/nopolo-tiburtino.webp";
 import Image10 from "../images/casale-castellaccio.webp";
 import Image11 from "../images/comelavoriamo.webp";
-import Image12 from "../images/impianti2.webp";
+import Image12 from "../images/impianti.webp";
 import Image13 from "../images/logo.svg";
 import Image14 from "../images/qrcode.svg";
-import Image15 from "../images/home.gif";
 
 import "../../index.css";
 
@@ -115,7 +116,7 @@ export default function Home() {
             <div class="card__image-holder">
               <LazyLoadImage
                 className="card__image"
-                src={Image1}
+                src={Image2}
                 alt="CONSOLIDAMENTO DI MURATURE"
               />
             </div>
@@ -145,7 +146,7 @@ export default function Home() {
             <div class="card__image-holder">
               <LazyLoadImage
                 className="card__image"
-                src={Image1}
+                src={Image4}
                 alt="INTONACI ARMATI"
               />
             </div>

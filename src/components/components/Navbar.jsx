@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../index.css";
 import { Link } from "react-router-dom";
 import Image from "../images/logo.svg";
@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light static-top" >
         <div className="container">
           <Link to="/">
-            <LazyLoadImage src={Image} alt="LogoTedx" width="" height="40" />
+            <LazyLoadImage src={Image} alt="Appalto Roma" width="" height="40" />
           </Link>
           <button
             className="navbar-toggler"

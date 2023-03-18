@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../index.css";
-import Image1 from "../images/footer.png";
-import Image from "../images/logo.jpg";
+import Image1 from "../images/footer.webp";
+import Image from "../images/logo.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Footer() {

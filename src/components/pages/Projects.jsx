@@ -3,7 +3,7 @@ import Image from "../images/projects.webp";
 import ProjectsCard from "../components/ProjectsCard";
 
 import Image1 from "../images/condominio-via-barilatti.webp";
-import Image2 from "../images/viatolosa.webp";
+import Image2 from "../images/codominio-via-tolosa.webp";
 import Image3 from "../images/Alessandro-Codivilla-1.webp";
 import Image4 from "../images/Via-Passo-Lombardo-7.webp";
 import Image5 from "../images/pinsaccoccia.webp";
@@ -77,22 +77,10 @@ export default function Bonus() {
           titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
           immagine={Image7}
         />
-        <ProjectsCard
-          titolo="CASALE CASTELLACCIO- ROMA"
-          immagine={Image8}
-        />
-        <ProjectsCard
-          titolo="OSTERIA DEL CURATO"
-          immagine={Image9}
-        />
-        <ProjectsCard
-          titolo="OSTIA"
-          immagine={Image10}
-        />
-        <ProjectsCard
-          titolo="CASTELLO DELL’OSCANO"
-          immagine={Image11}
-        />
+        <ProjectsCard titolo="CASALE CASTELLACCIO- ROMA" immagine={Image8} />
+        <ProjectsCard titolo="OSTERIA DEL CURATO" immagine={Image9} />
+        <ProjectsCard titolo="OSTIA" immagine={Image10} />
+        <ProjectsCard titolo="CASTELLO DELL’OSCANO" immagine={Image11} />
         <ProjectsCard
           titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
           immagine={Image12}

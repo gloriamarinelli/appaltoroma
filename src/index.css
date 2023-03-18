@@ -14,14 +14,6 @@ body {
   src: url("./resources/Gotham-Book.otf") format("opentype");
 }
 
-/*ABOUT*/
-.header-about {
-  background-image: url("./components/images/chisiamo2.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /*HOME*/
 .btn4 {
   display: inline-block;

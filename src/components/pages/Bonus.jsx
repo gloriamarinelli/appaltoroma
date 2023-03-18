@@ -57,7 +57,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"#34aadc"
+            color: "#34aadc",
           }}
         >
           “A” – Fase PROPEDEUTICA
@@ -77,7 +77,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"#34aadc"
+            color: "#34aadc",
           }}
         >
           “B” – Fase 1: Fattibilità
@@ -86,7 +86,6 @@ export default function Bonus() {
           style={{
             fontSize: "20px",
             fontFamily: "GothamBook",
-            
           }}
         >
           Il processo inizia con l’elaborazione di una preliminare valutazione
@@ -100,7 +99,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"#34aadc"
+            color: "#34aadc",
           }}
         >
           “C” – Fase 2: Progetto di fattibilità e diagnosi{" "}
@@ -154,7 +153,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"#34aadc"
+            color: "#34aadc",
           }}
         >
           “D” – Fase 3: Acquisizione permessi e Cantiere
@@ -200,7 +199,7 @@ export default function Bonus() {
           style={{
             fontWeight: "bold",
             fontFamily: "GothamBold",
-            color:"#34aadc"
+            color: "#34aadc",
           }}
         >
           4 – Garanzie
