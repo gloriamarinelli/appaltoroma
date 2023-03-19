@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../index.css";
 import Image1 from "../images/footer.webp";
-import Image from "../images/logo.webp";
+import Image from "../images/logo1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import global from "../../resources/global.json";
 
@@ -37,37 +37,94 @@ export default function Footer() {
                     EDILIZIO, EVENTI SISMICI
                   </h1>
                 </div>
-                <hr className="text-white"></hr>
-                <div>
-                  <h3
-                    style={{
-                      fontSize: "40px",
-                      allign: "center",
-                      fontFamily: "GothamBold",
-                    }}
-                  >
-                    {" "}
-                    📞0669278528
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      color: "gold",
-                      fontFamily: "GothamBold",
-                    }}
-                  >
-                    Ufficio Roma
-                  </p>
-                  <h5 style={{ fontFamily: "GothamBook" }}>
-                    amministrazione.appaltoroma@gmail.com
-                  </h5>
-                </div>
 
-                <LazyLoadImage
-                  src={Image}
-                  alt="Chi siamo Appalto Roma"
-                  height="100"
-                />
+                <hr className="text-white"></hr>
+
+                <div className="container">
+                  <div class="row">
+                    <div class="col"></div>
+                    <div
+                      class="col-5"
+                      style={{
+                        textAlign: "left",
+                        color: "white",
+                        backgroundColor: "rgba(52,170,220,0.5)",
+                      }}
+                    >
+                      <h5>
+                        {" "}
+                        Tel. Ufficio Roma:
+                        <strong
+                          style={{
+                            fontSize: "30px",
+                            fontFamily: "GothamBold",
+                            color: "gold",
+                          }}
+                        >
+                          {" "}
+                          0669278528
+                        </strong>
+                      </h5>
+                      <h5>
+                        {" "}
+                        Email:
+                        <strong
+                          style={{
+                            fontSize: "20px",
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          amministrazione.appaltoroma@gmail.com
+                        </strong>{" "}
+                      </h5>
+
+                      <h5>
+                        {" "}
+                        Web:
+                        <strong
+                          style={{
+                            fontSize: "30px",
+
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          www.appaltoroma.it
+                        </strong>{" "}
+                      </h5>
+
+                      <h5>
+                        {" "}
+                        Partita IVA:
+                        <strong
+                          style={{
+                            fontSize: "30px",
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          11908371005
+                        </strong>{" "}
+                      </h5>
+                      <div className="mt-3 mb-3"
+                        style={{
+                          textAlign: "center",
+                        }}
+                      >
+                        <LazyLoadImage
+                          src={Image}
+                          alt="Chi siamo Appalto Roma"
+                          height="100px"
+                        />
+                      </div>
+                    </div>
+                    <div class="col"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <hr className="text-white"></hr>
@@ -112,36 +169,91 @@ export default function Footer() {
                   </h1>
                 </div>
                 <hr className="text-white"></hr>
-                <div>
-                  <h3
-                    style={{
-                      fontSize: "40px",
-                      allign: "center",
-                      fontFamily: "GothamBold",
-                    }}
-                  >
-                    {" "}
-                    📞06 8947 3105
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      color: "gold",
-                      fontFamily: "GothamBold",
-                    }}
-                  >
-                    Ufficio Roma
-                  </p>
-                  <h5 style={{ fontFamily: "GothamBook", fontSize: "15px" }}>
-                    Email: amministrazione.appaltoroma@gmail.com
-                  </h5>
-                </div>
 
-                <LazyLoadImage
-                  src={Image}
-                  alt="Chi siamo Appalto Roma"
-                  height="50"
-                />
+                <div className="container">
+                  <div class="row">
+                    <div class="col"></div>
+                    <div
+                      class="col-10"
+                      style={{
+                        textAlign: "left",
+                        color: "white",
+                        backgroundColor: "rgba(52,170,220,0.5)",
+                      }}
+                    >
+                      <h6>
+                        {" "}
+                        Tel. Ufficio Roma:
+                        <strong
+                          style={{
+                            fontSize: "15px",
+                            fontFamily: "GothamBold",
+                            color: "gold",
+                          }}
+                        >
+                          {" "}
+                          0669278528
+                        </strong>
+                      </h6>
+                      <h6>
+                        {" "}
+                        Email:
+                        <strong
+                          style={{
+                            fontSize: "14px",
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          amministrazione.appaltoroma@gmail.com
+                        </strong>{" "}
+                      </h6>
+
+                      <h6>
+                        {" "}
+                        Web:
+                        <strong
+                          style={{
+                            fontSize: "15px",
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          www.appaltoroma.it
+                        </strong>{" "}
+                      </h6>
+
+                      <h6>
+                        {" "}
+                        Partita IVA:
+                        <strong
+                          style={{
+                            fontSize: "15px",
+                            fontFamily: "GothamBold",
+                            color:  "gold",
+                          }}
+                        >
+                          {" "}
+                          11908371005
+                        </strong>{" "}
+                      </h6>
+                      <div className="mt-3 mb-3"
+                        style={{
+                          textAlign: "center",
+                        }}
+                      >
+                        <LazyLoadImage
+                          src={Image}
+                          alt="Chi siamo Appalto Roma"
+                          height="80px"
+                        />
+                      </div>
+                    </div>
+                    <div class="col"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <hr className="text-white"></hr>

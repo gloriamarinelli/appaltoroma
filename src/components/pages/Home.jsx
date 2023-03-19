@@ -6,7 +6,7 @@ import Image18 from "../images/home_mobile.gif";
 
 import Image from "../images/sudinoi.webp";
 import Image1 from "../images/sottofondazioni.webp";
-import Image2 from "../images/consolidamento.webp";
+import Image2 from "../images/consolidamentomurature.webp";
 import Image3 from "../images/iniezioniconsolidanti.webp";
 import Image4 from "../images/intonaciarmati.webp";
 import Image5 from "../images/product.webp";
@@ -90,7 +90,7 @@ export default function Home() {
                       textDecoration: "none",
                       color: "#fff",
                     }}
-                    href="/projects"
+                    href="/about"
                   >
                     Scopri di più →
                   </a>
@@ -124,6 +124,7 @@ export default function Home() {
                 <LazyLoadImage
                   className="card__image"
                   src={Image2}
+                  height="200px"
                   alt="CONSOLIDAMENTO DI MURATURE"
                 />
               </div>
@@ -192,16 +193,14 @@ export default function Home() {
                       fontSize: "18px",
                     }}
                   >
-                    Massimizza ogni centimetro quadrato
+                    Sviluppiamo e sperimentiamo soluzioni e sistemi tecnologici
+                    per raggiungere i migliori risultati sul campo.
                   </p>
-                  <div className="p-5 d-flex justify-content-left align-items-left">
-                    <LazyLoadImage src={Image6} alt="product" height="100px" />
-                  </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="p-5 d-flex justify-content-center align-items-center">
-                  <LazyLoadImage src={Image5} alt="product" height="500px" />
+                  <LazyLoadImage src={Image5} alt="product" height="400px" />
                 </div>
               </div>
             </div>
@@ -367,7 +366,7 @@ export default function Home() {
                     La professionalita’ dei nostri tecnici e le attrezzature a
                     nostra disposizione oggi ci permettono di effettuare
                     tempestivamente interventi di:
-                    <ul style={{ fontSize: "10px" }}>
+                    <ul style={{ fontSize: "20px" }}>
                       <li>SOTTOFONDAZIONI</li>
                       <li>INIEIZIONI CONSOLIDANTI</li>
                       <li>INTONACI ARMATI</li>
@@ -725,7 +724,7 @@ export default function Home() {
                       textDecoration: "none",
                       color: "#fff",
                     }}
-                    href="/projects"
+                    href="/about"
                   >
                     Scopri di più →
                   </a>
@@ -759,6 +758,7 @@ export default function Home() {
                 <LazyLoadImage
                   className="card__image"
                   src={Image2}
+                  height="200px"
                   alt="CONSOLIDAMENTO DI MURATURE"
                 />
               </div>
@@ -999,7 +999,7 @@ export default function Home() {
                     La professionalita’ dei nostri tecnici e le attrezzature a
                     nostra disposizione oggi ci permettono di effettuare
                     tempestivamente interventi di:
-                    <ul style={{ fontSize: "20px" }}>
+                    <ul style={{ fontSize: "15px" }}>
                       <li>SOTTOFONDAZIONI</li>
                       <li>INIEIZIONI CONSOLIDANTI</li>
                       <li>INTONACI ARMATI</li>
@@ -1128,7 +1128,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-5">
+        <section>
           <div
             className="header-home-impianti"
             style={{
@@ -1138,11 +1138,11 @@ export default function Home() {
               backgroundPosition: "center",
               textAlign: "center",
               color: "#fff",
-              height: "100vh",
+              height: "60vh",
               placeItems: "center",
             }}
           >
-            <div >
+            <div>
               <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                 COSA FACCIAMO
               </h3>
