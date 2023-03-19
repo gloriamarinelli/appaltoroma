@@ -200,7 +200,7 @@ export default function Footer() {
                         Email:
                         <strong
                           style={{
-                            fontSize: "14px",
+                            fontSize: "10px",
                             fontFamily: "GothamBold",
                             color:  "gold",
                           }}
