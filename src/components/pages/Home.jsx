@@ -827,7 +827,7 @@ export default function Home() {
                       fontSize: "18px",
                     }}
                   >
-                    Massimizza ogni centimetro quadrato
+                    Sviluppiamo e sperimentiamo soluzioni e sistemi tecnologici per raggiungere i migliori risultati sul campo.
                   </p>
                 </div>
               </div>
