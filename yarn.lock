@@ -8509,7 +8509,14 @@
     "@remix-run/router" "1.4.0"
     "react-router" "6.9.0"
 
-"react-router@6.9.0":
+"react-router-sitemap@^1.2.0":
+  "integrity" "sha512-3aETwxCFTGHsGbXpyh7sr+c/WDr0q1rpng0M4pgoV6Owl3673buejPHGvzDmZEdiqhRa+I0znRDneKRc1NC06Q=="
+  "resolved" "https://registry.npmjs.org/react-router-sitemap/-/react-router-sitemap-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "sitemap" "^1.6.0"
+
+"react-router@^2.3.0 || ^3.2.1 || ^4.3.0", "react-router@6.9.0":
   "integrity" "sha512-51lKevGNUHrt6kLuX3e/ihrXoXCa9ixY/nVWRLlob4r/l0f45x3SzBvYJe3ctleLUQQ5fVa4RGgJOTH7D9Umhw=="
   "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.9.0.tgz"
   "version" "6.9.0"
@@ -8571,7 +8578,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8", "react@>=16.x.x":
+"react@^15.1.0 || ^16.0.0", "react@^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8", "react@>=16.x.x":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -9125,6 +9132,14 @@
     "normalize-url" "3.3.0"
     "simplecrawler" "1.1.9"
     "url-parse" "1.4.7"
+
+"sitemap@^1.6.0":
+  "integrity" "sha512-++mJIYR1+WpO1m0iqZv9viGmalxkm6r8Zq8OOFcFzx3aLlXU50T0JV3pvr6WHyFkwudlXmt190ZRbtH3yOm3Hg=="
+  "resolved" "https://registry.npmjs.org/sitemap/-/sitemap-1.13.0.tgz"
+  "version" "1.13.0"
+  dependencies:
+    "underscore" "^1.7.0"
+    "url-join" "^1.1.0"
 
 "slash@^1.0.0":
   "integrity" "sha512-3TYDR7xWt4dIqV2JauJr+EJeW356RXijHeUlO+8djJ+uBXPn8/2dpzBc8yQhh583sVvc9CvFAeQVgijsH+PNNg=="
@@ -9796,6 +9811,11 @@
     "has-symbols" "^1.0.3"
     "which-boxed-primitive" "^1.0.2"
 
+"underscore@^1.7.0":
+  "integrity" "sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A=="
+  "resolved" "https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz"
+  "version" "1.13.6"
+
 "unicode-canonical-property-names-ecmascript@^2.0.0":
   "integrity" "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ=="
   "resolved" "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz"
@@ -9870,6 +9890,11 @@
   "integrity" "sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ=="
   "resolved" "https://registry.npmjs.org/urijs/-/urijs-1.19.11.tgz"
   "version" "1.19.11"
+
+"url-join@^1.1.0":
+  "integrity" "sha512-zz1wZk4Lb5PTVwZ3HWDmm8XnlPvmOof6/fjdDPA5yBrUcbtV64U6bV832Zf1BtU2WkBBWaUT46wCs+l0HP5nhg=="
+  "resolved" "https://registry.npmjs.org/url-join/-/url-join-1.1.0.tgz"
+  "version" "1.1.0"
 
 "url-parse@^1.5.3":
   "integrity" "sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ=="
