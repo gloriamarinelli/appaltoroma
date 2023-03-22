@@ -77,11 +77,15 @@ export default function Home() {
                     il supporto anche di verifiche videoispettive e
                     termofotografiche interventi di:{" "}
                     <strong>
-                      SOTTOFONDAZIONI, CONSOLIDAMENTO DI MURATURE, INIEZIONI
-                      CONSOLIDANTI, VERIFICA DELLE TRASMITTANZE TERMICHE,
-                      INTERVENTI DI DEUMIDIFICAZIONE, INTONACI ARMATI,
-                      INCATENAMENTI STRUTTURALI, CONSOLIDAMENTO DI SOLAI,
-                      FASCIATURE IN KEVLAR O IN CARBONIO.
+                      <ul>
+                        <li>CONSOLIDAMENTI</li>
+                        <li>VERIFICA DELLE TRASMITTANZE TERMICHE</li>
+                        <li>INTERVENTI DI DEUMIDIFICAZIONE</li>
+                        <li>INTONACI ARMATI</li>
+                        <li>INCATENAMENTI STRUTTURALI</li>
+                        <li>CONSOLIDAMENTO DI SOLAI</li>
+                        <li>FASCIATURE IN KEVLAR O IN CARBONIO</li>
+                      </ul>
                     </strong>
                   </p>
                   <a
@@ -263,8 +267,13 @@ export default function Home() {
 
                 <p>
                   <strong>
-                    EDIFICI CONDOMINIALI, CASE INDIPENDENTI O A SCHIERA, VILLE,
-                    STRUTTURE RICETTIVE, EDIFICI COMMERCIALI ED INDUSTRIALI.
+                    <ul>
+                        <li> EDIFICI CONDOMINIALI</li>
+                        <li>CASE INDIPENDENTI O A SCHIERA</li>
+                        <li>VILLE</li>
+                        <li>STRUTTURE RICETTIVE</li>
+                        <li>EDIFICI COMMERCIALI ED INDUSTRIALI</li>
+                      </ul>
                   </strong>
                 </p>
 
@@ -276,10 +285,14 @@ export default function Home() {
 
                 <p>
                   <strong>
-                    STRUTTURE ANTISISMICHE TAMPONATURE ESTERNE ED INFISSI CLASSE
-                    “A” INTERVENTI DI BIOARCHITETTURA IMPIANTI CENTRALIZZATI ED
-                    AUTONOMI PANNELLI SOLARI TERMICI E FOTOVOLTAICI IMPIANTI
-                    DOMOTICI
+                  <ul>
+                        <li> STRUTTURE ANTISISMICHE</li>
+                        <li>TAMPONATURE ESTERNE ED INFISSI CLASSE “A”</li>
+                        <li>INTERVENTI DI BIOARCHITETTURA</li>
+                        <li> IMPIANTI CENTRALIZZATI ED AUTONOMI</li>
+                        <li>PANNELLI SOLARI, TERMICI E FOTOVOLTAICI</li>
+                        <li>IMPIANTI DOMOTICI</li>
+                      </ul>
                   </strong>
                 </p>
               </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../index.css";
-import Image1 from "../images/footer.webp";
+import Image1 from "../images/prova1.png";
 import Image from "../images/logo1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import global from "../../resources/global.json";
@@ -18,13 +18,15 @@ export default function Footer() {
           className="footer bg-dark"
           style={{
             backgroundImage: `url(${Image1})`,
-            color: "white",
-            backgroundRepeat: "repeat",
+            color: "black",
+            backgroundRepeat: "",
+            backgroundPosition: "center",
+            backgroundSize:"cover"
           }}
         >
           <span>
             <div className="container">
-              <div className="py-5 my-4 text-center">
+              <div className=" my-4 text-center">
                 <div className="py-5">
                   <h5 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                     INTERVENTO DI MANUTENZIONE DELLE FACCIATE E DEL CORNICIONE
@@ -38,17 +40,15 @@ export default function Footer() {
                   </h1>
                 </div>
 
-                <hr className="text-white"></hr>
+                <hr className="text-dark"></hr>
 
                 <div className="container">
                   <div class="row">
                     <div class="col"></div>
                     <div
                       class="col-5"
-                      style={{
-                        textAlign: "left",
-                        color: "white",
-                        backgroundColor: "rgba(52,170,220,0.5)",
+                      style={{                        
+                        color:"black"                       
                       }}
                     >
                       <h5>
@@ -58,7 +58,7 @@ export default function Footer() {
                           style={{
                             fontSize: "30px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                           color:"black"
                           }}
                         >
                           {" "}
@@ -72,7 +72,7 @@ export default function Footer() {
                           style={{
                             fontSize: "20px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color:"black"
                           }}
                         >
                           {" "}
@@ -86,9 +86,9 @@ export default function Footer() {
                         <strong
                           style={{
                             fontSize: "30px",
-
+                            color:"black",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            
                           }}
                         >
                           {" "}
@@ -103,7 +103,7 @@ export default function Footer() {
                           style={{
                             fontSize: "30px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color:"black"
                           }}
                         >
                           {" "}
@@ -111,7 +111,7 @@ export default function Footer() {
                         </strong>{" "}
                       </h5>
                       <div
-                        className="mt-3 mb-3"
+                        className="mt-3"
                         style={{
                           textAlign: "center",
                         }}
@@ -128,15 +128,15 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <hr className="text-white"></hr>
-            <div className="copyright py-4 text-center text-white">
+            <hr className="text-dark"></hr>
+            <div className="copyright py-2 text-center text-black">
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
                   &copy; Copyright 2023 | AppaltoRoma by{" "}
                   <a                    
                     style={{
                       textDecoration: "none",
-                      color: "gold",
+                      color: "blue",
                     }}
                     href="https://github.com/gloriamarinelli"
                   >
@@ -158,26 +158,23 @@ export default function Footer() {
           className="footer bg-dark"
           style={{
             backgroundImage: `url(${Image1})`,
-            color: "white",
+            color: "black",
             backgroundRepeat: "repeat",
           }}
         >
           <span>
             <div className="container">
-              <div className="py-5 my-4 text-center">
-                <div className="py-5">
+              <div className="my-4 text-center">
+                <div className="py-3">
                   <h5 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                     INTERVENTO DI MANUTENZIONE DELLE FACCIATE E DEL CORNICIONE
                     DELL'EDIFICIO
                   </h5>
                   <h1 style={{ allign: "center", fontFamily: "GothamBold" }}>
-                    INTERVENTI DI RECUPERO
-                  </h1>
-                  <h1 style={{ allign: "center", fontFamily: "GothamBold" }}>
-                    EDILIZIO, EVENTI SISMICI
-                  </h1>
+                    INTERVENTI DI RECUPERO EDILIZIO E EVENTI SISMICI
+                  </h1>                  
                 </div>
-                <hr className="text-white"></hr>
+                <hr className="text-dark"></hr>
 
                 <div className="container">
                   <div class="row">
@@ -186,8 +183,8 @@ export default function Footer() {
                       class="col-10"
                       style={{
                         textAlign: "left",
-                        color: "white",
-                        backgroundColor: "rgba(52,170,220,0.5)",
+                        color: "black",
+                        
                       }}
                     >
                       <h6>
@@ -197,7 +194,7 @@ export default function Footer() {
                           style={{
                             fontSize: "15px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color: "black",
                           }}
                         >
                           {" "}
@@ -211,7 +208,7 @@ export default function Footer() {
                           style={{
                             fontSize: "10px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color: "black",
                           }}
                         >
                           {" "}
@@ -226,7 +223,7 @@ export default function Footer() {
                           style={{
                             fontSize: "15px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color: "black",
                           }}
                         >
                           {" "}
@@ -241,7 +238,7 @@ export default function Footer() {
                           style={{
                             fontSize: "15px",
                             fontFamily: "GothamBold",
-                            color: "gold",
+                            color: "black",
                           }}
                         >
                           {" "}
@@ -266,15 +263,15 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <hr className="text-white"></hr>
-            <div className="copyright py-4 text-center text-white">
+            <hr className="text-dark"></hr>
+            <div className="copyright py-4 text-center text-dark">
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
                   &copy; Copyright 2023 | AppaltoRoma by{" "}
                   <a                    
                     style={{
                       textDecoration: "none",
-                      color: "gold",
+                      color: "blue",
                     }}
                     href="https://github.com/gloriamarinelli"
                   >
