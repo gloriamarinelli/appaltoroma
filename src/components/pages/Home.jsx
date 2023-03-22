@@ -1055,6 +1055,7 @@ export default function Home() {
         </section>
 
         <section>
+          <div className="container">
           <div
             className="header-home"
             style={{
@@ -1157,6 +1158,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </section>
 
