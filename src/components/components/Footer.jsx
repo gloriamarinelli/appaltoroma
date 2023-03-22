@@ -72,7 +72,7 @@ export default function Footer() {
                           style={{
                             fontSize: "20px",
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
@@ -88,7 +88,7 @@ export default function Footer() {
                             fontSize: "30px",
 
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
@@ -103,14 +103,15 @@ export default function Footer() {
                           style={{
                             fontSize: "30px",
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
                           11908371005
                         </strong>{" "}
                       </h5>
-                      <div className="mt-3 mb-3"
+                      <div
+                        className="mt-3 mb-3"
                         style={{
                           textAlign: "center",
                         }}
@@ -202,7 +203,7 @@ export default function Footer() {
                           style={{
                             fontSize: "10px",
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
@@ -217,7 +218,7 @@ export default function Footer() {
                           style={{
                             fontSize: "15px",
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
@@ -232,14 +233,15 @@ export default function Footer() {
                           style={{
                             fontSize: "15px",
                             fontFamily: "GothamBold",
-                            color:  "gold",
+                            color: "gold",
                           }}
                         >
                           {" "}
                           11908371005
                         </strong>{" "}
                       </h6>
-                      <div className="mt-3 mb-3"
+                      <div
+                        className="mt-3 mb-3"
                         style={{
                           textAlign: "center",
                         }}
@@ -260,7 +262,18 @@ export default function Footer() {
             <div className="copyright py-4 text-center text-white">
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
-                  &copy; Copyright 2023 | appaltoroma.it | All Rights Reserved
+                  &copy; Copyright 2023 | AppaltoRoma by{" "}
+                  <a
+                    className="btn4"
+                    style={{
+                      textDecoration: "none",
+                      color: "#red",
+                    }}
+                    href="https://github.com/gloriamarinelli"
+                  >
+                    GloriaMarinelli
+                  </a>{" "}
+                  | All Rights Reserved
                 </small>
               </div>
             </div>
