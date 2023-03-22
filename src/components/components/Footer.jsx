@@ -132,7 +132,16 @@ export default function Footer() {
             <div className="copyright py-4 text-center text-white">
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
-                  &copy; Copyright 2023 | appaltoroma.it | All Rights Reserved
+                  &copy; Copyright 2023 | AppaltoRoma by{" "}
+                  <a
+                    className="btn4"
+                    style={{
+                      textDecoration: "none",
+                      color: "#red",
+                    }}
+                    href="https://github.com/gloriamarinelli"
+                  >
+                    GloriaMarinelli </a>{" "} | All Rights Reserved
                 </small>
               </div>
             </div>
