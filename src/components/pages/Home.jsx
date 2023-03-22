@@ -705,11 +705,11 @@ export default function Home() {
                     }}
                   >
                     La strumentazione unita alla provata professionalità dei
-                    nostri tecnici l’affidabilità dei nostri operai e della
+                    nostri tecnici, l’affidabilità dei nostri operai e della
                     nostra attrezzatura ci permette di effettuare interventi di
                     manutenzione e restauro di edifici storici effettuando, con
                     il supporto anche di verifiche videoispettive e
-                    termofotografiche interventi di:{" "}
+                    termofotografiche, interventi di:{" "}
                     <strong>
                       SOTTOFONDAZIONI, CONSOLIDAMENTO DI MURATURE, INIEZIONI
                       CONSOLIDANTI, VERIFICA DELLE TRASMITTANZE TERMICHE,
