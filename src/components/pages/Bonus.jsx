@@ -281,7 +281,7 @@ export default function Bonus() {
             ECOBONUS E SISMABONUS
           </h1>
         </div>
-        <div style={{ textAlign: "justify", padding: "80px" }}>
+        <div style={{ padding: "50px" }}>
           <h5
             style={{
               fontFamily: "GothamBook",

@@ -149,7 +149,7 @@ export default function About() {
         </div>
 
         <section>
-          <div className="container px-5">
+          <div className="container">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
                 <div className="p-5 d-flex justify-content-center align-items-center">
@@ -168,7 +168,7 @@ export default function About() {
                   <p
                     className="mt-3"
                     style={{
-                      textAlign: "justify",
+                      
                       fontFamily: "GothamBook",
                       fontSize: "18px",
                     }}
@@ -184,7 +184,7 @@ export default function About() {
                   </p>
                   <p
                     style={{
-                      textAlign: "justify",
+                     
                       fontFamily: "GothamBook",
                       fontSize: "18px",
                     }}
@@ -199,7 +199,7 @@ export default function About() {
                   </p>
                   <p
                     style={{
-                      textAlign: "justify",
+                      
                       fontFamily: "GothamBook",
                       fontSize: "18px",
                     }}

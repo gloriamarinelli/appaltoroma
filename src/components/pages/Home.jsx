@@ -680,7 +680,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="container px-5">
+          <div className="container">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
                 <div className="p-5 d-flex justify-content-center align-items-center">
@@ -699,9 +699,8 @@ export default function Home() {
                   <p
                     className="lead mt-3"
                     style={{
-                      textAlign: "justify",
                       fontFamily: "GothamBook",
-                      fontSize: "18px",
+                      fontSize: "16px",
                     }}
                   >
                     La strumentazione unita alla provata professionalità dei
@@ -710,12 +709,20 @@ export default function Home() {
                     manutenzione e restauro di edifici storici effettuando, con
                     il supporto anche di verifiche videoispettive e
                     termofotografiche, interventi di:{" "}
-                    <strong>
-                      SOTTOFONDAZIONI, CONSOLIDAMENTO DI MURATURE, INIEZIONI
-                      CONSOLIDANTI, VERIFICA DELLE TRASMITTANZE TERMICHE,
-                      INTERVENTI DI DEUMIDIFICAZIONE, INTONACI ARMATI,
-                      INCATENAMENTI STRUTTURALI, CONSOLIDAMENTO DI SOLAI,
-                      FASCIATURE IN KEVLAR O IN CARBONIO.
+                    <strong
+                      style={{
+                        fontSize: "18px",
+                      }}
+                    >
+                      <ul>
+                        <li>CONSOLIDAMENTI</li>
+                        <li>VERIFICA DELLE TRASMITTANZE TERMICHE</li>
+                        <li>INTERVENTI DI DEUMIDIFICAZIONE</li>
+                        <li>INTONACI ARMATI</li>
+                        <li>INCATENAMENTI STRUTTURALI</li>
+                        <li>CONSOLIDAMENTO DI SOLAI</li>
+                        <li>FASCIATURE IN KEVLAR O IN CARBONIO</li>
+                      </ul>
                     </strong>
                   </p>
                   <a
@@ -808,7 +815,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="container px-5">
+          <div className="container">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
                 <div className="p-5">
@@ -822,12 +829,12 @@ export default function Home() {
                   <p
                     className="lead mt-3"
                     style={{
-                      textAlign: "justify",
                       fontFamily: "GothamBook",
                       fontSize: "18px",
                     }}
                   >
-                    Sviluppiamo e sperimentiamo soluzioni e sistemi tecnologici per raggiungere i migliori risultati sul campo.
+                    Sviluppiamo e sperimentiamo soluzioni e sistemi tecnologici
+                    per raggiungere i migliori risultati sul campo.
                   </p>
                 </div>
               </div>
@@ -874,59 +881,69 @@ export default function Home() {
 
         <section>
           <div class="container mt-5 mb-5">
-            <div class="row">
-              <div class="col-sm">
-                <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
-                  I NOSTRI PROGETTI
-                </h3>
-                <h1 style={{ color: "#23262d", fontFamily: "GothamBold" }}>
-                  Esplora i nostri progetti
-                </h1>
-              </div>
-              <div
-                class="col-sm"
-                style={{ fontFamily: "GothamBook", textAlign: "justify" }}
-              >
-                <p style={{ fontWeight: "bold" }}>INTERVENTI CHIAVI IN MANO</p>
-                <p>
-                  La nostra impresa mette a disposizione il know how acquisito e
-                  le attrezzature necessarie alla realizzazione in regime di
-                  qualità garantita ed assoluta sicurezza di:
-                </p>
+            <div className="row gx-5 align-items-center">
+              <div className="col-lg-6">
+                <div className="p-5">
+                  <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
+                    I NOSTRI PROGETTI
+                  </h3>
+                  <h1 style={{ color: "#23262d", fontFamily: "GothamBold" }}>
+                    Esplora i nostri progetti
+                  </h1>
 
-                <p>
-                  <strong>
-                    EDIFICI CONDOMINIALI, CASE INDIPENDENTI O A SCHIERA, VILLE,
-                    STRUTTURE RICETTIVE, EDIFICI COMMERCIALI ED INDUSTRIALI.
-                  </strong>
-                </p>
+                  <p style={{ fontWeight: "bold", fontFamily: "GothamBook" }}>
+                    INTERVENTI CHIAVI IN MANO
+                  </p>
+                  <p style={{ fontFamily: "GothamBook" }}>
+                    La nostra impresa mette a disposizione il know how acquisito
+                    e le attrezzature necessarie alla realizzazione in regime di
+                    qualità garantita ed assoluta sicurezza di:
+                  </p>
 
-                <p>
-                  {" "}
-                  Utilizzando le migliori e le più innovative tecnologie
-                  presenti sul mercato siamo in grando di assicurare:{" "}
-                </p>
+                  <p style={{ fontFamily: "GothamBook" }}>
+                    <strong>
+                      <ul>
+                        <li> EDIFICI CONDOMINIALI</li>
+                        <li>CASE INDIPENDENTI O A SCHIERA</li>
+                        <li>VILLE</li>
+                        <li>STRUTTURE RICETTIVE</li>
+                        <li>EDIFICI COMMERCIALI ED INDUSTRIALI</li>
+                      </ul>
+                    </strong>
+                  </p>
 
-                <p>
-                  <strong>
-                    STRUTTURE ANTISISMICHE TAMPONATURE ESTERNE ED INFISSI CLASSE
-                    “A” INTERVENTI DI BIOARCHITETTURA IMPIANTI CENTRALIZZATI ED
-                    AUTONOMI PANNELLI SOLARI TERMICI E FOTOVOLTAICI IMPIANTI
-                    DOMOTICI
-                  </strong>
-                </p>
-              </div>
-              <div class="col-sm" style={{ textAlign: "center" }}>
-                <a
-                  className="btn4"
-                  style={{
-                    textDecoration: "none",
-                    color: "#fff",
-                  }}
-                  href="/projects"
-                >
-                  Altri progetti →
-                </a>
+                  <p style={{ fontFamily: "GothamBook" }}>
+                    {" "}
+                    Utilizzando le migliori e le più innovative tecnologie
+                    presenti sul mercato siamo in grando di assicurare:{" "}
+                  </p>
+
+                  <p style={{ fontFamily: "GothamBook" }}>
+                    <strong>
+                      <ul>
+                        <li> STRUTTURE ANTISISMICHE</li>
+                        <li>TAMPONATURE ESTERNE ED INFISSI CLASSE “A”</li>
+                        <li>INTERVENTI DI BIOARCHITETTURA</li>
+                        <li> IMPIANTI CENTRALIZZATI ED AUTONOMI</li>
+                        <li>PANNELLI SOLARI, TERMICI E FOTOVOLTAICI</li>
+                        <li>IMPIANTI DOMOTICI</li>
+                      </ul>
+                    </strong>
+                  </p>
+
+                  <div className="col-sm" style={{ textAlign: "center" }}>
+                    <a
+                      className="btn4"
+                      style={{
+                        textDecoration: "none",
+                        color: "#fff",
+                      }}
+                      href="/projects"
+                    >
+                      Altri progetti →
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -934,7 +951,7 @@ export default function Home() {
           <div class="container" style={{ textAlign: "center" }}>
             <div class="row">
               <div class="col">
-                <LazyLoadImage src={Image9} alt="polotuburtina" height="200" />
+                <LazyLoadImage src={Image9} alt="polotuburtina" height="190" />
                 <a
                   style={{
                     textDecoration: "none",
@@ -950,7 +967,7 @@ export default function Home() {
                 <LazyLoadImage
                   src={Image10}
                   alt="casalecastellaccio"
-                  height="200"
+                  height="170"
                 />
                 <a
                   style={{
@@ -968,7 +985,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="container px-5">
+          <div className="container">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
                 <div className="p-5 d-flex justify-content-center align-items-center">
@@ -991,7 +1008,6 @@ export default function Home() {
                   <p
                     className="lead mt-3"
                     style={{
-                      textAlign: "justify",
                       fontFamily: "GothamBook",
                       fontSize: "18px",
                     }}
@@ -999,7 +1015,7 @@ export default function Home() {
                     La professionalita’ dei nostri tecnici e le attrezzature a
                     nostra disposizione oggi ci permettono di effettuare
                     tempestivamente interventi di:
-                    <ul style={{ fontSize: "15px" }}>
+                    <ul>
                       <li>SOTTOFONDAZIONI</li>
                       <li>INIEIZIONI CONSOLIDANTI</li>
                       <li>INTONACI ARMATI</li>
@@ -1007,16 +1023,18 @@ export default function Home() {
                       <li>FASCIATURE IN FIBRA DI CARBONIO</li>
                     </ul>
                   </p>
-                  <a
-                    className="btn4"
-                    style={{
-                      textDecoration: "none",
-                      color: "#fff",
-                    }}
-                    href="/bonus"
-                  >
-                    Esplora →
-                  </a>
+                  <div className="col-sm" style={{ textAlign: "center" }}>
+                    <a
+                      className="btn4"
+                      style={{
+                        textDecoration: "none",
+                        color: "#fff",
+                      }}
+                      href="/bonus"
+                    >
+                      Esplora →
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1031,7 +1049,6 @@ export default function Home() {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              textAlign: "center",
               color: "#fff",
               height: "100vh",
               display: "flex",
@@ -1040,14 +1057,19 @@ export default function Home() {
           >
             <div class="container">
               <div class="row" style={{ gap: "50px" }}>
-                <div class="col" style={{ textAlign: "justify" }}>
+                <div class="col">
                   <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                     COME LAVORIAMO
                   </h3>
                   <h1 style={{ color: "#23262d", fontFamily: "GothamBold" }}>
                     Manutenzioni condominiali
                   </h1>
-                  <p style={{ color: "black" }}>
+                  <p
+                    style={{
+                      color: "black",
+                      fontSize: "18px",
+                    }}
+                  >
                     Ristrutturazione di facciate, frontalini, balconi e terrazzi
                     recupero e/o integrazione dei ferri di armatura, ripristino
                     e/o sostituzione dei gocciolatoi con tecniche antisismiche
@@ -1056,11 +1078,10 @@ export default function Home() {
                 </div>
 
                 <div
-                  class="col"
                   style={{
                     fontFamily: "GothamBook",
                     color: "black",
-                    textAlign: "left",
+                    textAlign: "center",
                     display: "grind",
                   }}
                 >
@@ -1068,58 +1089,56 @@ export default function Home() {
                     style={{
                       color: "#34aadc",
                       fontFamily: "GothamBold",
-                      fontSize: "50px",
+                      fontSize: "30px",
                     }}
                   >
                     01
                   </h1>
 
-                  <p style={{ fontWeight: "bold", fontSize: "20px" }}>
+                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
                     Ci pensiamo Noi
                   </p>
                 </div>
 
                 <div
-                  class="col"
                   style={{
                     fontFamily: "GothamBook",
                     color: "black",
-                    textAlign: "left",
+                    textAlign: "center",
                   }}
                 >
                   <h1
                     style={{
                       color: "#34aadc",
                       fontFamily: "GothamBold",
-                      fontSize: "50px",
+                      fontSize: "30px",
                     }}
                   >
                     02
                   </h1>
 
-                  <p style={{ fontWeight: "bold", fontSize: "20px" }}>
+                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
                     Ideiamo Noi
                   </p>
                 </div>
 
                 <div
-                  class="col"
                   style={{
                     fontFamily: "GothamBook",
                     color: "black",
-                    textAlign: "left",
+                    textAlign: "center",
                   }}
                 >
                   <h1
                     style={{
                       color: "#34aadc",
                       fontFamily: "GothamBold",
-                      fontSize: "50px",
+                      fontSize: "30px",
                     }}
                   >
                     03
                   </h1>
-                  <p style={{ fontWeight: "bold", fontSize: "20px" }}>
+                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
                     Garantiamo Noi
                   </p>{" "}
                 </div>
