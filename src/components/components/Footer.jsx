@@ -133,11 +133,10 @@ export default function Footer() {
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
                   &copy; Copyright 2023 | AppaltoRoma by{" "}
-                  <a
-                    className="btn4"
+                  <a                    
                     style={{
                       textDecoration: "none",
-                      color: "#red",
+                      color: "gold",
                     }}
                     href="https://github.com/gloriamarinelli"
                   >
@@ -272,11 +271,10 @@ export default function Footer() {
               <div className="container">
                 <small style={{ fontFamily: "GothamBook" }}>
                   &copy; Copyright 2023 | AppaltoRoma by{" "}
-                  <a
-                    className="btn4"
+                  <a                    
                     style={{
                       textDecoration: "none",
-                      color: "#red",
+                      color: "gold",
                     }}
                     href="https://github.com/gloriamarinelli"
                   >
