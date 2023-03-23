@@ -268,12 +268,12 @@ export default function Home() {
                 <p>
                   <strong>
                     <ul>
-                        <li> EDIFICI CONDOMINIALI</li>
-                        <li>CASE INDIPENDENTI O A SCHIERA</li>
-                        <li>VILLE</li>
-                        <li>STRUTTURE RICETTIVE</li>
-                        <li>EDIFICI COMMERCIALI ED INDUSTRIALI</li>
-                      </ul>
+                      <li> EDIFICI CONDOMINIALI</li>
+                      <li>CASE INDIPENDENTI O A SCHIERA</li>
+                      <li>VILLE</li>
+                      <li>STRUTTURE RICETTIVE</li>
+                      <li>EDIFICI COMMERCIALI ED INDUSTRIALI</li>
+                    </ul>
                   </strong>
                 </p>
 
@@ -285,14 +285,14 @@ export default function Home() {
 
                 <p>
                   <strong>
-                  <ul>
-                        <li> STRUTTURE ANTISISMICHE</li>
-                        <li>TAMPONATURE ESTERNE ED INFISSI CLASSE “A”</li>
-                        <li>INTERVENTI DI BIOARCHITETTURA</li>
-                        <li> IMPIANTI CENTRALIZZATI ED AUTONOMI</li>
-                        <li>PANNELLI SOLARI, TERMICI E FOTOVOLTAICI</li>
-                        <li>IMPIANTI DOMOTICI</li>
-                      </ul>
+                    <ul>
+                      <li> STRUTTURE ANTISISMICHE</li>
+                      <li>TAMPONATURE ESTERNE ED INFISSI CLASSE “A”</li>
+                      <li>INTERVENTI DI BIOARCHITETTURA</li>
+                      <li> IMPIANTI CENTRALIZZATI ED AUTONOMI</li>
+                      <li>PANNELLI SOLARI, TERMICI E FOTOVOLTAICI</li>
+                      <li>IMPIANTI DOMOTICI</li>
+                    </ul>
                   </strong>
                 </p>
               </div>
@@ -1055,9 +1055,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="container">
           <div
-            className="header-home"
+            className="container"
             style={{
               backgroundImage: `url(${Image11})`,
               backgroundSize: "cover",
@@ -1069,9 +1068,9 @@ export default function Home() {
               placeItems: "center",
             }}
           >
-            <div class="container">
-              <div class="row" style={{ gap: "50px" }}>
-                <div class="col">
+            <div className="row gx-5 align-items-center">
+              <div className="col-lg-6">
+                <div className="p-5" style={{ gap: "50px" }}>
                   <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
                     COME LAVORIAMO
                   </h3>
@@ -1090,165 +1089,139 @@ export default function Home() {
                     innovative di nostra produzione.
                   </p>
                 </div>
-
-                <div
-                  style={{
-                    fontFamily: "GothamBook",
-                    color: "black",
-                    textAlign: "center",
-                    display: "grind",
-                  }}
-                >
+                <div className="col-sm" style={{ textAlign: "center",  fontFamily: "GothamBook", color:"black" }}>
                   <h1
                     style={{
-                      color: "#34aadc",
-                      fontFamily: "GothamBold",
+                      color: "#34aadc",                     
                       fontSize: "30px",
+                      fontWeight:"bold"
                     }}
                   >
                     01
                   </h1>
 
-                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
+                  <p style={{fontSize: "30px" }}>
                     Ci pensiamo Noi
-                  </p>
-                </div>
-
-                <div
-                  style={{
-                    fontFamily: "GothamBook",
-                    color: "black",
-                    textAlign: "center",
-                  }}
-                >
+                  </p>               
                   <h1
                     style={{
-                      color: "#34aadc",
-                      fontFamily: "GothamBold",
+                      color: "#34aadc",                      
                       fontSize: "30px",
+                      fontWeight:"bold"
                     }}
                   >
                     02
                   </h1>
-
-                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
+                  <p style={{fontSize: "30px" }}>
                     Ideiamo Noi
-                  </p>
-                </div>
-
-                <div
-                  style={{
-                    fontFamily: "GothamBook",
-                    color: "black",
-                    textAlign: "center",
-                  }}
-                >
+                  </p>                
                   <h1
                     style={{
-                      color: "#34aadc",
-                      fontFamily: "GothamBold",
+                      color: "#34aadc",                      
                       fontSize: "30px",
+                      fontWeight:"bold"
                     }}
                   >
                     03
                   </h1>
-                  <p style={{ fontWeight: "bold", fontSize: "30px" }}>
+                  <p style={{fontSize: "30px" }}>
                     Garantiamo Noi
-                  </p>{" "}
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </section>
 
         <section>
-          <div
-            className="header-home-impianti"
-            style={{
-              backgroundImage: `url(${Image12})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              textAlign: "center",
-              color: "#fff",
-              height: "60vh",
-              placeItems: "center",
-            }}
-          >
-            <div>
-              <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
-                COSA FACCIAMO
-              </h3>
-              <h1
-                style={{
-                  color: "white",
-                  fontFamily: "GothamBold",
-                  fontSize: "50px",
-                  textAlign: "center",
-                }}
-              >
-                Impianti
-              </h1>
-            </div>
-            <form
+          <div className="container">
+            <div
+              className="header-home-impianti"
               style={{
-                backgroundColor: "rgba(255, 255, 255, 0.7)",
-                color: "black",
+                backgroundImage: `url(${Image12})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                textAlign: "center",
+                color: "#fff",
+                height: "60vh",
+                placeItems: "center",
               }}
             >
-              <div class="container-grind" style={{ textAlign: "justify" }}>
-                <div class="row" style={{ gap: "60px" }}>
-                  <div class="col">
-                    <h1
-                      style={{
-                        color: "#34aadc",
-                        fontSize: "50px",
-                      }}
-                    >
-                      ❝
-                    </h1>
-                    <h6 style={{ fontStyle: "italic", textAlign: "center" }}>
-                      I continui aggiornamenti a cui ci sottoponiamo
-                      costantemente ci garantiscono la più ampia possibilita' di
-                      progettare e poi costruire impianti tecnologici e tecnici
-                      di qual si voglia carattere e dimensione.
-                    </h6>
-                    <h1
-                      style={{
-                        color: "#34aadc",
-                        fontSize: "50px",
-                      }}
-                    >
-                      ❞
-                    </h1>
-                  </div>
-                  <div class="col">
-                    <h1
-                      style={{
-                        color: "#34aadc",
-                        fontSize: "50px",
-                      }}
-                    >
-                      ❝
-                    </h1>
-                    <h6 style={{ fontStyle: "italic", textAlign: "center" }}>
-                      Impianti di immissione ed estrazione dell'aria anche per
-                      grandi capannoni industriali o per singole unita abitative
-                      o strutture ricettive.
-                    </h6>
-                    <h1
-                      style={{
-                        color: "#34aadc",
-                        fontSize: "50px",
-                      }}
-                    >
-                      ❞
-                    </h1>
+              <div>
+                <h3 style={{ color: "#34aadc", fontFamily: "GothamBold" }}>
+                  COSA FACCIAMO
+                </h3>
+                <h1
+                  style={{
+                    color: "white",
+                    fontFamily: "GothamBold",
+                    fontSize: "50px",
+                    textAlign: "center",
+                  }}
+                >
+                  Impianti
+                </h1>
+              </div>
+              <form
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.7)",
+                  color: "black",
+                }}
+              >
+                <div class="container-grind" style={{ textAlign: "justify" }}>
+                  <div class="row" style={{ gap: "60px" }}>
+                    <div class="col">
+                      <h1
+                        style={{
+                          color: "#34aadc",
+                          fontSize: "50px",
+                        }}
+                      >
+                        ❝
+                      </h1>
+                      <h6 style={{ fontStyle: "italic", textAlign: "center" }}>
+                        I continui aggiornamenti a cui ci sottoponiamo
+                        costantemente ci garantiscono la più ampia possibilita'
+                        di progettare e poi costruire impianti tecnologici e
+                        tecnici di qual si voglia carattere e dimensione.
+                      </h6>
+                      <h1
+                        style={{
+                          color: "#34aadc",
+                          fontSize: "50px",
+                        }}
+                      >
+                        ❞
+                      </h1>
+                    </div>
+                    <div class="col">
+                      <h1
+                        style={{
+                          color: "#34aadc",
+                          fontSize: "50px",
+                        }}
+                      >
+                        ❝
+                      </h1>
+                      <h6 style={{ fontStyle: "italic", textAlign: "center" }}>
+                        Impianti di immissione ed estrazione dell'aria anche per
+                        grandi capannoni industriali o per singole unita
+                        abitative o strutture ricettive.
+                      </h6>
+                      <h1
+                        style={{
+                          color: "#34aadc",
+                          fontSize: "50px",
+                        }}
+                      >
+                        ❞
+                      </h1>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </section>
 
