@@ -1063,7 +1063,7 @@ export default function Home() {
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               color: "#fff",
-              height: "100vh",
+              height: "150vh",
               display: "flex",
               placeItems: "center",
             }}
@@ -1144,7 +1144,7 @@ export default function Home() {
                 backgroundPosition: "center",
                 textAlign: "center",
                 color: "#fff",
-                height: "60vh",
+                height: "100vh",
                 placeItems: "center",
               }}
             >
