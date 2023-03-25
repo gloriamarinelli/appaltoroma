@@ -27,8 +27,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
               className="navbar-nav ms-auto"
-              style={{ fontFamily: "GothamBook",
-              }}
+              style={{ fontFamily: "GothamBook"}}
             >
               <li className="nav-item">
                 <Link className="nav-link text-dark" to="/about">

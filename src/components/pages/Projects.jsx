@@ -53,58 +53,86 @@ export default function Bonus() {
           </h1>
         </div>
 
-        <section class="articles">
+        <section className="articles">
           <ProjectsCard
             titolo="CONDOMINIO Via Barillatti – ROMA"
             immagine={Image1}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Tolosa – ROMA EUR"
             immagine={Image2}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Alessandro Codivilla – ROMA"
             immagine={Image3}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="EDIFICIO MONOFAMILIARE Via Passo Lombardo N° 126 – ROMA"
             immagine={Image4}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="PIANSACCOCCIA 2 Via Enrico Tallone - ROMA"
             immagine={Image5}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="POLO TECNOLOGICO TIBURTINO Via Tiburtina - ROMA"
             immagine={Image6}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
             immagine={Image7}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
-          <ProjectsCard titolo="CASALE CASTELLACCIO- ROMA" immagine={Image8} />
-          <ProjectsCard titolo="OSTERIA DEL CURATO" immagine={Image9} />
-          <ProjectsCard titolo="OSTIA" immagine={Image10} />
-          <ProjectsCard titolo="CASTELLO DELL’OSCANO" immagine={Image11} />
+          <ProjectsCard
+            titolo="CASALE CASTELLACCIO- ROMA"
+            immagine={Image8}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="OSTERIA DEL CURATO"
+            immagine={Image9}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="OSTIA"
+            immagine={Image10}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="CASTELLO DELL’OSCANO"
+            immagine={Image11}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
           <ProjectsCard
             titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
             immagine={Image12}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO FOA’ 45 Via Pio Foa’ 45 - ROMA"
             immagine={Image13}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Cherso N° 59 – ROMA"
             immagine={Image14}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="PALAZZO GRANDE Corciano (PG)"
             immagine={Image15}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare Del 1600 E Successive Integrazioni Del 1800 D.C."
             immagine={Image16}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
         </section>
       </>
@@ -141,60 +169,86 @@ export default function Bonus() {
           </h1>
         </div>
 
-        <section class="articles-center" style={{         
-         
-        }}>
+        <section className="articles">
           <ProjectsCard
             titolo="CONDOMINIO Via Barillatti – ROMA"
             immagine={Image1}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Tolosa – ROMA EUR"
             immagine={Image2}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Alessandro Codivilla – ROMA"
             immagine={Image3}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="EDIFICIO MONOFAMILIARE Via Passo Lombardo N° 126 – ROMA"
             immagine={Image4}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="PIANSACCOCCIA 2 Via Enrico Tallone - ROMA"
             immagine={Image5}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="POLO TECNOLOGICO TIBURTINO Via Tiburtina - ROMA"
             immagine={Image6}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
             immagine={Image7}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
-          <ProjectsCard titolo="CASALE CASTELLACCIO- ROMA" immagine={Image8} />
-          <ProjectsCard titolo="OSTERIA DEL CURATO" immagine={Image9} />
-          <ProjectsCard titolo="OSTIA" immagine={Image10} />
-          <ProjectsCard titolo="CASTELLO DELL’OSCANO" immagine={Image11} />
+          <ProjectsCard
+            titolo="CASALE CASTELLACCIO- ROMA"
+            immagine={Image8}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="OSTERIA DEL CURATO"
+            immagine={Image9}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="OSTIA"
+            immagine={Image10}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
+          <ProjectsCard
+            titolo="CASTELLO DELL’OSCANO"
+            immagine={Image11}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+          />
           <ProjectsCard
             titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
             immagine={Image12}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO FOA’ 45 Via Pio Foa’ 45 - ROMA"
             immagine={Image13}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Cherso N° 59 – ROMA"
             immagine={Image14}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="PALAZZO GRANDE Corciano (PG)"
             immagine={Image15}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
             titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare Del 1600 E Successive Integrazioni Del 1800 D.C."
             immagine={Image16}
+            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
         </section>
       </>

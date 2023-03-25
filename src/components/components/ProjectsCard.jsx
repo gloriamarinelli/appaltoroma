@@ -1,24 +1,24 @@
 import React from "react";
 import "../../resources/styles/projectsstyle.css";
 
-export default function ProjectsCard({ titolo, immagine }) {
+export default function ProjectsCard({ titolo, immagine, descrizione }) {
   return (
     <>
-      <section class="articles">
-        <article>
-          <div class="article-wrapper">
-            <figure>
-              <img src={immagine} alt="" />
-            </figure>
-            <div class="article-body">
-              {" "}
-              <a>
-                {" "}
-                <h2 style={{ textAlign: "center" }}>{titolo}</h2>
-              </a>
+      <section>
+        <div className="container">
+          <div className="card-pro">
+            <div className="card-projects">
+              <input type="checkbox" className="btn1" />
+              <div className="overlay">
+                <p>{descrizione}</p>
+              </div>
+              <img src={immagine} alt="project Appalto Roma" />
             </div>
-          </div>{" "}
-        </article>
+            <h5 style={{ textAlign: "center", fontWeight: "bold" }}>
+              {titolo}
+            </h5>
+          </div>
+        </div>
       </section>
     </>
   );
