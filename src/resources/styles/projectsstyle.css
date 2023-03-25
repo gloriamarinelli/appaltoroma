@@ -17,6 +17,7 @@
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  justify-content: center;
 }
 
 .card-projects img {
@@ -80,7 +81,8 @@
 }
 
 .overlay p {
-  font-size: 13px;
+  font-size: 14px;
+  font-family: GothamBook;
 }
 
 .btn1:checked ~ .overlay {

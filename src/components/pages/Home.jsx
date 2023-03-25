@@ -626,48 +626,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{ backgroundImage: `url(${Image11})` }}>
-          <div class="container mt-5" style={{ textAlign: "center" }}>
-            <div class="row">
-              <div class="col">
-                <LazyLoadImage src={Image13} alt="appaltoroma" height="150" />
-              </div>
-              <div class="col">
-                <LazyLoadImage
-                  src={Image14}
-                  alt="qrcode appaltoroma"
-                  height="150"
-                />
-              </div>
-              <div className="mt-5">
-                {" "}
-                <a
-                  style={{
-                    textDecoration: "none",
-                    color: "#23262d",
-                    fontFamily: "GothamBook",
-                  }}
-                  href="/projects"
-                >
-                  <h1>
-                    UFFICO ROMA:{" "}
-                    <strong>Via Sante Monachesi, n°4, 00173 Roma (RM)</strong>{" "}
-                  </h1>
-                </a>
-              </div>
-              <div class="col mt-5">
-                <Iframe
-                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.759992828528!2d12.57693478456841!3d41.83346599710838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325884eacaa1887%3A0xed17ef86dcef2445!2sVia%20Sante%20Monachesi%2C%204%2C%2000173%20Roma%20RM!5e0!3m2!1sit!2sit!4v1678985185172!5m2!1sit!2sit"
-                  width="1000px"
-                  height="400px"
-                  id=""
-                  className=""
-                  placeItems="center"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        
       </>
     );
   } else {
@@ -1225,48 +1184,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{ backgroundImage: `url(${Image11})` }}>
-          <div class="container-flex mt-5" style={{ textAlign: "center" }}>
-            <div class="row">
-              <div class="col">
-                <LazyLoadImage src={Image13} alt="appaltoroma" height="50" />
-              </div>
-              <div class="col">
-                <LazyLoadImage
-                  src={Image14}
-                  alt="qrcode appaltoroma"
-                  height="70"
-                />
-              </div>
-              <div className="mt-5">
-                {" "}
-                <a
-                  style={{
-                    textDecoration: "none",
-                    color: "#23262d",
-                    fontFamily: "GothamBook",
-                  }}
-                  href="/projects"
-                >
-                  <h3>
-                    UFFICO ROMA:{" "}
-                    <strong>Via Sante Monachesi, n°4, 00173 Roma (RM)</strong>{" "}
-                  </h3>
-                </a>
-              </div>
-              <div class="col mt-5">
-                <Iframe
-                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.759992828528!2d12.57693478456841!3d41.83346599710838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325884eacaa1887%3A0xed17ef86dcef2445!2sVia%20Sante%20Monachesi%2C%204%2C%2000173%20Roma%20RM!5e0!3m2!1sit!2sit!4v1678985185172!5m2!1sit!2sit"
-                  width="300px"
-                  height="400px"
-                  id=""
-                  className=""
-                  placeItems="center"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        
       </>
     );
   }

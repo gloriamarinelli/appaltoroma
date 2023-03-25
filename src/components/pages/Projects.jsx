@@ -20,6 +20,7 @@ import Image13 from "../images/foa-balconi.webp";
 import Image14 from "../images/CONDOMINIO-di-Via-Cherso.webp";
 import Image15 from "../images/palazzo-grande-corciano.webp";
 import Image16 from "../images/oscano-ingresso.webp";
+import Image17 from "../images/braccianese.webp";
 
 export default function Bonus() {
   const [windowSize, setWindowSize] = useOutletContext();
@@ -57,82 +58,114 @@ export default function Bonus() {
           <ProjectsCard
             titolo="CONDOMINIO Via Barillatti – ROMA"
             immagine={Image1}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	155.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Frontalini balconi e gocciolatoi.            Manutenzione copertura.
+         "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Tolosa – ROMA EUR"
             immagine={Image2}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	278.000,00"
+            descrizione1="Rifacimento completo del sistema fognario e posizionato sul soffitto del locale autorimessa. Smantellamento e rifacimento delle coperture del piano autorimessa.
+            Fognature e piazzali e parcheggi esterni.
+         "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Alessandro Codivilla – ROMA"
             immagine={Image3}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	450.000,00"
+            descrizione1="			Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Ristrutturazione frontalini  e balconi.
+            Manutenzione copertura.
+      "
+          />
+          <ProjectsCard
+            titolo="Braccianese - ROMA"
+            immagine={Image17}
+            descrizione="€	1.750.000,00"
+            descrizione1="Costruzione n° 18  appartamenti con autorimessa "
           />
           <ProjectsCard
             titolo="EDIFICIO MONOFAMILIARE Via Passo Lombardo N° 126 – ROMA"
             immagine={Image4}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	110.000,00"
+            descrizione1="Cappotto interno controsoffittato e cappotto esterno con parete microventilata,            impianto di riscaldamento a pavimento con pompa di calore “idronico”,
+            pannelli fotovoltaici e colonnine per adduzione elettrica per autoveicoli.      "
           />
           <ProjectsCard
             titolo="PIANSACCOCCIA 2 Via Enrico Tallone - ROMA"
             immagine={Image5}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
             titolo="POLO TECNOLOGICO TIBURTINO Via Tiburtina - ROMA"
             immagine={Image6}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
-            titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
+            titolo="CONDOMINIO Colle degli Abeti   Via Cardinale Luigi Traglia - ROMA"
             immagine={Image7}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	660.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Rifacimento copertura e realizzazione di tetto rovescio e con pavimento flottante e rifacimento sistema fognario e piazzali esterni."
           />
           <ProjectsCard
-            titolo="CASALE CASTELLACCIO- ROMA"
+            titolo="Casale Castellaccio - ROMA"
             immagine={Image8}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
-            titolo="OSTERIA DEL CURATO"
+            titolo="Osteria del Curato - ROMA    "
             immagine={Image9}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	2.450.000,00"
+            descrizione1="Costruzione n° 24  appartamenti con autorimessa e negozi"
           />
           <ProjectsCard
-            titolo="OSTIA"
+            titolo="CONDOMINIO di Viale della Vittoria – Ostia Lido   -  ROMA"
             immagine={Image10}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	145.000,00"
+            descrizione1="Miglioramento SISMICO della struttura e creazione di corpi aggiunti in copertura. "
           />
           <ProjectsCard
-            titolo="CASTELLO DELL’OSCANO"
-            immagine={Image11}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
-          />
-          <ProjectsCard
-            titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
+            titolo="CONDOMINIO Via Guglielmo Massaia N° 39 - ROMA"
             immagine={Image12}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	750.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate, 
+            ristrutturazione fioriere e balconi e
+            manutenzione copertura.
+      "
           />
           <ProjectsCard
-            titolo="CONDOMINIO FOA’ 45 Via Pio Foa’ 45 - ROMA"
+            titolo="CONDOMINIO Via Pio Foa’ N° 45 - ROMA"
             immagine={Image13}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	175.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate.
+            Frontalini balconi,
+            rifacimento copertura,
+            smantellamento pavimentazione esterna e suolo rifacimento.
+        "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Cherso N° 59 – ROMA"
             immagine={Image14}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	450.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate.
+            Cappotto esterno, consolidamento tetto e successiva coibentazione ed impermeabilizzazione.            Consolidamento struttura muraria,
+            sostituzione infissi esterni,
+           abbattimento barriere architettoniche, ascensore e montascale.
+        "
           />
           <ProjectsCard
-            titolo="PALAZZO GRANDE Corciano (PG)"
+            titolo="PALAZZO GRANDE - Corciano (PG)"
             immagine={Image15}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	1.450.000,00"
+            descrizione1="Miglioramento ANTISISMICO, ristrutturazione edilizia con cambio di destinazione d’uso da privato a recettivo.
+            Sottofondazioni, consolidamento dei paramenti murari, degli orizzontamenti a volta ed in piano, incatenamenti,  intonaci, pavimenti, rivestimenti e finiture.
+            "
           />
           <ProjectsCard
-            titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare del 1600 D.C."
+            titolo="CASTELLO DELL’OSCANO Torre Circolare del 1600 D.C. - Cenerente (PG) "
             immagine={Image16}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	1.800.000,00 (intervento cofinanziato dal Ministero dei Beni Culturali) "
+            descrizione1=" Ristrutturazione edilizia con cambio di destinazione d'uso da privato a recettivo. Sottofondazioni, consolidamento dei paramenti murari e degli orizzontamenti, intonaci, pavimenti, rivestimenti, finiture, impianto elettrico e idrico sanitario, riscaldamento, ascensore, ecc.. .           "
           />
         </section>
       </>
@@ -173,82 +206,114 @@ export default function Bonus() {
           <ProjectsCard
             titolo="CONDOMINIO Via Barillatti – ROMA"
             immagine={Image1}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	155.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Frontalini balconi e gocciolatoi.            Manutenzione copertura.
+         "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Tolosa – ROMA EUR"
             immagine={Image2}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	278.000,00"
+            descrizione1="Rifacimento completo del sistema fognario e posizionato sul soffitto del locale autorimessa. Smantellamento e rifacimento delle coperture del piano autorimessa.
+            Fognature e piazzali e parcheggi esterni.
+         "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Alessandro Codivilla – ROMA"
             immagine={Image3}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	450.000,00"
+            descrizione1="			Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Ristrutturazione frontalini  e balconi.
+            Manutenzione copertura.
+      "
+          />
+          <ProjectsCard
+            titolo="Braccianese - ROMA"
+            immagine={Image17}
+            descrizione="€	1.750.000,00"
+            descrizione1="Costruzione n° 18  appartamenti con autorimessa "
           />
           <ProjectsCard
             titolo="EDIFICIO MONOFAMILIARE Via Passo Lombardo N° 126 – ROMA"
             immagine={Image4}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	110.000,00"
+            descrizione1="Cappotto interno controsoffittato e cappotto esterno con parete microventilata,            impianto di riscaldamento a pavimento con pompa di calore “idronico”,
+            pannelli fotovoltaici e colonnine per adduzione elettrica per autoveicoli.      "
           />
           <ProjectsCard
             titolo="PIANSACCOCCIA 2 Via Enrico Tallone - ROMA"
             immagine={Image5}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
             titolo="POLO TECNOLOGICO TIBURTINO Via Tiburtina - ROMA"
             immagine={Image6}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
-            titolo="CASTEL VERDE COLLE DEGLI ABETI Via Cardinale Luigi Traglia - ROMA"
+            titolo="CONDOMINIO Colle degli Abeti   Via Cardinale Luigi Traglia - ROMA"
             immagine={Image7}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	660.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate. Rifacimento copertura e realizzazione di tetto rovescio e con pavimento flottante e rifacimento sistema fognario e piazzali esterni."
           />
           <ProjectsCard
-            titolo="CASALE CASTELLACCIO- ROMA"
+            titolo="Casale Castellaccio - ROMA"
             immagine={Image8}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="-"
           />
           <ProjectsCard
-            titolo="OSTERIA DEL CURATO"
+            titolo="Osteria del Curato - ROMA    "
             immagine={Image9}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	2.450.000,00"
+            descrizione1="Costruzione n° 24  appartamenti con autorimessa e negozi"
           />
           <ProjectsCard
-            titolo="OSTIA"
+            titolo="CONDOMINIO di Viale della Vittoria – Ostia Lido   -  ROMA"
             immagine={Image10}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	145.000,00"
+            descrizione1="Miglioramento SISMICO della struttura e creazione di corpi aggiunti in copertura. "
           />
           <ProjectsCard
-            titolo="CASTELLO DELL’OSCANO"
-            immagine={Image11}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
-          />
-          <ProjectsCard
-            titolo="CONDOMINIO MASSAIA 39 Via Guglielmo Massaia 39 - ROMA"
+            titolo="CONDOMINIO Via Guglielmo Massaia N° 39 - ROMA"
             immagine={Image12}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	750.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate, 
+            ristrutturazione fioriere e balconi e
+            manutenzione copertura.
+      "
           />
           <ProjectsCard
-            titolo="CONDOMINIO FOA’ 45 Via Pio Foa’ 45 - ROMA"
+            titolo="CONDOMINIO Via Pio Foa’ N° 45 - ROMA"
             immagine={Image13}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	175.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate.
+            Frontalini balconi,
+            rifacimento copertura,
+            smantellamento pavimentazione esterna e suolo rifacimento.
+        "
           />
           <ProjectsCard
             titolo="CONDOMINIO Via Cherso N° 59 – ROMA"
             immagine={Image14}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	450.000,00"
+            descrizione1="Manutenzione delle facciate esterne con ristrutturazione delle parti ammalorate.
+            Cappotto esterno, consolidamento tetto e successiva coibentazione ed impermeabilizzazione.            Consolidamento struttura muraria,
+            sostituzione infissi esterni,
+           abbattimento barriere architettoniche, ascensore e montascale.
+        "
           />
           <ProjectsCard
-            titolo="PALAZZO GRANDE Corciano (PG)"
+            titolo="PALAZZO GRANDE - Corciano (PG)"
             immagine={Image15}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	1.450.000,00"
+            descrizione1="Miglioramento ANTISISMICO, ristrutturazione edilizia con cambio di destinazione d’uso da privato a recettivo.
+            Sottofondazioni, consolidamento dei paramenti murari, degli orizzontamenti a volta ed in piano, incatenamenti,  intonaci, pavimenti, rivestimenti e finiture.
+            "
           />
           <ProjectsCard
-            titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare Del 1600 E Successive Integrazioni Del 1800 D.C."
+            titolo="CASTELLO DELL’OSCANO Torre Circolare del 1600 D.C. - Cenerente (PG) "
             immagine={Image16}
-            descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
+            descrizione="€	1.800.000,00 (intervento cofinanziato dal Ministero dei Beni Culturali) "
+            descrizione1=" Ristrutturazione edilizia con cambio di destinazione d'uso da privato a recettivo. Sottofondazioni, consolidamento dei paramenti murari e degli orizzontamenti, intonaci, pavimenti, rivestimenti, finiture, impianto elettrico e idrico sanitario, riscaldamento, ascensore, ecc.. .           "
           />
         </section>
       </>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../resources/styles/projectsstyle.css";
 
-export default function ProjectsCard({ titolo, immagine, descrizione }) {
+export default function ProjectsCard({ titolo, immagine, descrizione, descrizione1 }) {
   return (
     <>
       <section>
@@ -10,7 +10,8 @@ export default function ProjectsCard({ titolo, immagine, descrizione }) {
             <div className="card-projects">
               <input type="checkbox" className="btn1" />
               <div className="overlay">
-                <p>{descrizione}</p>
+                <p>Importo appalto: <strong>{descrizione}</strong></p>
+                <p>{descrizione1}</p>
               </div>
               <img src={immagine} alt="project Appalto Roma" />
             </div>
