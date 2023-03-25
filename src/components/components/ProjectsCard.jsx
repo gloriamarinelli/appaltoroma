@@ -5,7 +5,7 @@ export default function ProjectsCard({ titolo, immagine, descrizione }) {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="container mt-5 mb-5">
           <div className="card-pro">
             <div className="card-projects">
               <input type="checkbox" className="btn1" />
