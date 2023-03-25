@@ -130,7 +130,7 @@ export default function Bonus() {
             descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
           <ProjectsCard
-            titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare Del 1600 E Successive Integrazioni Del 1800 D.C."
+            titolo="CASTELLO DELL’OSCANO Cenerente (PG) Torre Circolare del 1600 D.C."
             immagine={Image16}
             descrizione="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nisl nisl aliquet nisl, vel aliquet nisl nisl sit amet lorem."
           />
