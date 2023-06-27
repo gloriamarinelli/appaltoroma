@@ -293,7 +293,7 @@ export default function About() {
                   href="/projects"
                 >
                   <h3>
-                    UFFICO ROMA:{" "}
+                    UFFICIO ROMA:{" "}
                     <strong>Via Sante Monachesi, n°4, 00173 Roma (RM)</strong>{" "}
                   </h3>
                 </a>
