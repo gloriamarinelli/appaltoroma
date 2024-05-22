@@ -381,7 +381,7 @@ export default function Home() {
                     tempestivamente interventi di:
                     <ul style={{ fontSize: "20px" }}>
                       <li>SOTTOFONDAZIONI</li>
-                      <li>INIEIZIONI CONSOLIDANTI</li>
+                      <li>INIEZIONI CONSOLIDANTI</li>
                       <li>INTONACI ARMATI</li>
                       <li>FASCIATURE IN KEVLAR</li>
                       <li>FASCIATURE IN FIBRA DI CARBONIO</li>
@@ -989,7 +989,7 @@ export default function Home() {
                     tempestivamente interventi di:
                     <ul>
                       <li>SOTTOFONDAZIONI</li>
-                      <li>INIEIZIONI CONSOLIDANTI</li>
+                      <li>INIEZIONI CONSOLIDANTI</li>
                       <li>INTONACI ARMATI</li>
                       <li>FASCIATURE IN KEVLAR</li>
                       <li>FASCIATURE IN FIBRA DI CARBONIO</li>
